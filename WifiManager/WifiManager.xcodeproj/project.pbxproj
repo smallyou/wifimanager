@@ -7,14 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BC29C18697A8CAF951A29E4 /* libPods-WifiManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AC0A0C505DAA9F087B6B54 /* libPods-WifiManagerUITests.a */; };
 		546489801D75A9720053731B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5464897F1D75A9720053731B /* main.m */; };
-		546489831D75A9720053731B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489821D75A9720053731B /* AppDelegate.m */; };
-		546489861D75A9720053731B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489851D75A9720053731B /* ViewController.m */; };
 		546489891D75A9720053731B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546489871D75A9720053731B /* Main.storyboard */; };
 		5464898B1D75A9720053731B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5464898A1D75A9720053731B /* Assets.xcassets */; };
 		5464898E1D75A9720053731B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5464898C1D75A9720053731B /* LaunchScreen.storyboard */; };
 		546489991D75A9720053731B /* WifiManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489981D75A9720053731B /* WifiManagerTests.m */; };
 		546489A41D75A9720053731B /* WifiManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489A31D75A9720053731B /* WifiManagerUITests.m */; };
+		546489C51D75BC7C0053731B /* WMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489BE1D75BC7C0053731B /* WMTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		546489C61D75BC7C0053731B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489C31D75BC7C0053731B /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		546489D51D75BE770053731B /* Device.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546489D31D75BE770053731B /* Device.storyboard */; settings = {ASSET_TAGS = (); }; };
+		546489D81D75BE870053731B /* Forum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546489D61D75BE870053731B /* Forum.storyboard */; settings = {ASSET_TAGS = (); }; };
+		546489DB1D75BE980053731B /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546489D91D75BE980053731B /* Profile.storyboard */; settings = {ASSET_TAGS = (); }; };
+		546489DE1D75BF000053731B /* WMDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489DD1D75BF000053731B /* WMDeviceViewController.m */; settings = {ASSET_TAGS = (); }; };
+		546489E11D75C11D0053731B /* WMConstantVA.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489E01D75C11D0053731B /* WMConstantVA.m */; settings = {ASSET_TAGS = (); }; };
+		546489E31D75C32F0053731B /* deviceIcon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 546489E21D75C32F0053731B /* deviceIcon.plist */; settings = {ASSET_TAGS = (); }; };
+		546489E61D75C4D90053731B /* WMDeviceIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489E51D75C4D90053731B /* WMDeviceIcon.m */; settings = {ASSET_TAGS = (); }; };
+		546EDFA81D784893001CE4EE /* WMLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EDFA41D784893001CE4EE /* WMLoginView.m */; settings = {ASSET_TAGS = (); }; };
+		546EDFA91D784893001CE4EE /* WMLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 546EDFA51D784893001CE4EE /* WMLoginView.xib */; settings = {ASSET_TAGS = (); }; };
+		546EDFAA1D784893001CE4EE /* WMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EDFA71D784893001CE4EE /* WMTextField.m */; settings = {ASSET_TAGS = (); }; };
+		546EDFAD1D7848A4001CE4EE /* WMUserAccout.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EDFAC1D7848A4001CE4EE /* WMUserAccout.m */; settings = {ASSET_TAGS = (); }; };
+		546EDFB01D784CCA001CE4EE /* WMUserAccoutViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EDFAF1D784CCA001CE4EE /* WMUserAccoutViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E471D75C680005ABD57 /* WMDeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E451D75C680005ABD57 /* WMDeviceCell.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E481D75C680005ABD57 /* WMDeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548D7E461D75C680005ABD57 /* WMDeviceCell.xib */; settings = {ASSET_TAGS = (); }; };
+		548D7E4C1D75C81D005ABD57 /* UIView+CMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E4B1D75C81D005ABD57 /* UIView+CMFrame.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E771D75CE21005ABD57 /* WMWifiStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E761D75CE21005ABD57 /* WMWifiStateViewController.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E7A1D75CE41005ABD57 /* WMApManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E791D75CE41005ABD57 /* WMApManageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E7D1D75CE62005ABD57 /* WMWifiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E7C1D75CE62005ABD57 /* WMWifiViewController.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E801D75CE75005ABD57 /* WMAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E7F1D75CE75005ABD57 /* WMAuthViewController.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E831D75CE8C005ABD57 /* WMSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E821D75CE8C005ABD57 /* WMSearchViewController.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E861D75CEA3005ABD57 /* WMCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E851D75CEA3005ABD57 /* WMCustomViewController.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E891D75CEB3005ABD57 /* WMAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E881D75CEB3005ABD57 /* WMAdViewController.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E8C1D75CEC7005ABD57 /* WMWechatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E8B1D75CEC7005ABD57 /* WMWechatViewController.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E8F1D75CEDF005ABD57 /* WMSmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E8E1D75CEDF005ABD57 /* WMSmsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E921D75CF62005ABD57 /* WMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E911D75CF62005ABD57 /* WMNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		548D7E951D75D0B7005ABD57 /* UIBarButtonItem+CMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E941D75D0B7005ABD57 /* UIBarButtonItem+CMExtension.m */; settings = {ASSET_TAGS = (); }; };
+		548D7EFC1D7737FB005ABD57 /* CMCookiesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7EF71D7737FB005ABD57 /* CMCookiesHandler.m */; settings = {ASSET_TAGS = (); }; };
+		548D7EFD1D7737FB005ABD57 /* CMHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7EF91D7737FB005ABD57 /* CMHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
+		548D7EFE1D7737FB005ABD57 /* CMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7EFB1D7737FB005ABD57 /* CMNetworkManager.m */; settings = {ASSET_TAGS = (); }; };
+		6F8D4533E232B5F27F501BC4 /* libPods-WifiManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E67B84101F7E224448365F /* libPods-WifiManagerTests.a */; };
+		E69D80DC82EF4B9E6471E7C0 /* libPods-WifiManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7846780A9B0073910BDD8B /* libPods-WifiManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +67,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043E1FC394B801015D37AF7A /* Pods-WifiManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManager/Pods-WifiManager.release.xcconfig"; sourceTree = "<group>"; };
+		29E67B84101F7E224448365F /* libPods-WifiManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WifiManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AC0A0C505DAA9F087B6B54 /* libPods-WifiManagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WifiManagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5464897B1D75A9720053731B /* WifiManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5464897F1D75A9720053731B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		546489811D75A9720053731B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		546489821D75A9720053731B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		546489841D75A9720053731B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		546489851D75A9720053731B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		546489881D75A9720053731B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5464898A1D75A9720053731B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5464898D1D75A9720053731B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +82,69 @@
 		5464899F1D75A9720053731B /* WifiManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		546489A31D75A9720053731B /* WifiManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiManagerUITests.m; sourceTree = "<group>"; };
 		546489A51D75A9720053731B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546489BD1D75BC7C0053731B /* WMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTabBarViewController.h; sourceTree = "<group>"; };
+		546489BE1D75BC7C0053731B /* WMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTabBarViewController.m; sourceTree = "<group>"; };
+		546489C21D75BC7C0053731B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		546489C31D75BC7C0053731B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		546489C41D75BC7C0053731B /* WifiManager.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiManager.pch; sourceTree = "<group>"; };
+		546489D41D75BE770053731B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Device.storyboard; sourceTree = "<group>"; };
+		546489D71D75BE870053731B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Forum.storyboard; sourceTree = "<group>"; };
+		546489DA1D75BE980053731B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		546489DC1D75BF000053731B /* WMDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDeviceViewController.h; sourceTree = "<group>"; };
+		546489DD1D75BF000053731B /* WMDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDeviceViewController.m; sourceTree = "<group>"; };
+		546489DF1D75C11D0053731B /* WMConstantVA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMConstantVA.h; sourceTree = "<group>"; };
+		546489E01D75C11D0053731B /* WMConstantVA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMConstantVA.m; sourceTree = "<group>"; };
+		546489E21D75C32F0053731B /* deviceIcon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = deviceIcon.plist; sourceTree = "<group>"; };
+		546489E41D75C4D90053731B /* WMDeviceIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDeviceIcon.h; sourceTree = "<group>"; };
+		546489E51D75C4D90053731B /* WMDeviceIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDeviceIcon.m; sourceTree = "<group>"; };
+		546EDFA31D784893001CE4EE /* WMLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLoginView.h; sourceTree = "<group>"; };
+		546EDFA41D784893001CE4EE /* WMLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLoginView.m; sourceTree = "<group>"; };
+		546EDFA51D784893001CE4EE /* WMLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMLoginView.xib; sourceTree = "<group>"; };
+		546EDFA61D784893001CE4EE /* WMTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTextField.h; sourceTree = "<group>"; };
+		546EDFA71D784893001CE4EE /* WMTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTextField.m; sourceTree = "<group>"; };
+		546EDFAB1D7848A4001CE4EE /* WMUserAccout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMUserAccout.h; sourceTree = "<group>"; };
+		546EDFAC1D7848A4001CE4EE /* WMUserAccout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMUserAccout.m; sourceTree = "<group>"; };
+		546EDFAE1D784CCA001CE4EE /* WMUserAccoutViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMUserAccoutViewModel.h; sourceTree = "<group>"; };
+		546EDFAF1D784CCA001CE4EE /* WMUserAccoutViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMUserAccoutViewModel.m; sourceTree = "<group>"; };
+		548D7E441D75C680005ABD57 /* WMDeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDeviceCell.h; sourceTree = "<group>"; };
+		548D7E451D75C680005ABD57 /* WMDeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDeviceCell.m; sourceTree = "<group>"; };
+		548D7E461D75C680005ABD57 /* WMDeviceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMDeviceCell.xib; sourceTree = "<group>"; };
+		548D7E4A1D75C81D005ABD57 /* UIView+CMFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CMFrame.h"; sourceTree = "<group>"; };
+		548D7E4B1D75C81D005ABD57 /* UIView+CMFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CMFrame.m"; sourceTree = "<group>"; };
+		548D7E751D75CE21005ABD57 /* WMWifiStateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWifiStateViewController.h; sourceTree = "<group>"; };
+		548D7E761D75CE21005ABD57 /* WMWifiStateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWifiStateViewController.m; sourceTree = "<group>"; };
+		548D7E781D75CE41005ABD57 /* WMApManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMApManageViewController.h; sourceTree = "<group>"; };
+		548D7E791D75CE41005ABD57 /* WMApManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMApManageViewController.m; sourceTree = "<group>"; };
+		548D7E7B1D75CE62005ABD57 /* WMWifiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWifiViewController.h; sourceTree = "<group>"; };
+		548D7E7C1D75CE62005ABD57 /* WMWifiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWifiViewController.m; sourceTree = "<group>"; };
+		548D7E7E1D75CE75005ABD57 /* WMAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAuthViewController.h; sourceTree = "<group>"; };
+		548D7E7F1D75CE75005ABD57 /* WMAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAuthViewController.m; sourceTree = "<group>"; };
+		548D7E811D75CE8C005ABD57 /* WMSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSearchViewController.h; sourceTree = "<group>"; };
+		548D7E821D75CE8C005ABD57 /* WMSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSearchViewController.m; sourceTree = "<group>"; };
+		548D7E841D75CEA3005ABD57 /* WMCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCustomViewController.h; sourceTree = "<group>"; };
+		548D7E851D75CEA3005ABD57 /* WMCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCustomViewController.m; sourceTree = "<group>"; };
+		548D7E871D75CEB3005ABD57 /* WMAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAdViewController.h; sourceTree = "<group>"; };
+		548D7E881D75CEB3005ABD57 /* WMAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAdViewController.m; sourceTree = "<group>"; };
+		548D7E8A1D75CEC7005ABD57 /* WMWechatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWechatViewController.h; sourceTree = "<group>"; };
+		548D7E8B1D75CEC7005ABD57 /* WMWechatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWechatViewController.m; sourceTree = "<group>"; };
+		548D7E8D1D75CEDF005ABD57 /* WMSmsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSmsViewController.h; sourceTree = "<group>"; };
+		548D7E8E1D75CEDF005ABD57 /* WMSmsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSmsViewController.m; sourceTree = "<group>"; };
+		548D7E901D75CF62005ABD57 /* WMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNavigationController.h; sourceTree = "<group>"; };
+		548D7E911D75CF62005ABD57 /* WMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNavigationController.m; sourceTree = "<group>"; };
+		548D7E931D75D0B7005ABD57 /* UIBarButtonItem+CMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CMExtension.h"; sourceTree = "<group>"; };
+		548D7E941D75D0B7005ABD57 /* UIBarButtonItem+CMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CMExtension.m"; sourceTree = "<group>"; };
+		548D7EF61D7737FB005ABD57 /* CMCookiesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCookiesHandler.h; sourceTree = "<group>"; };
+		548D7EF71D7737FB005ABD57 /* CMCookiesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCookiesHandler.m; sourceTree = "<group>"; };
+		548D7EF81D7737FB005ABD57 /* CMHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTTPSessionManager.h; sourceTree = "<group>"; };
+		548D7EF91D7737FB005ABD57 /* CMHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTTPSessionManager.m; sourceTree = "<group>"; };
+		548D7EFA1D7737FB005ABD57 /* CMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNetworkManager.h; sourceTree = "<group>"; };
+		548D7EFB1D7737FB005ABD57 /* CMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNetworkManager.m; sourceTree = "<group>"; };
+		5E121FB57FE3015601FFF205 /* Pods-WifiManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManagerTests/Pods-WifiManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8347E5D0968E6CCB2C31BC08 /* Pods-WifiManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManagerUITests/Pods-WifiManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B102727B661BE29444DF8027 /* Pods-WifiManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManager/Pods-WifiManager.debug.xcconfig"; sourceTree = "<group>"; };
+		DBECC83EBCB96961C39E47FD /* Pods-WifiManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManagerUITests/Pods-WifiManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F66D251BEC2544B0D1BE1EA2 /* Pods-WifiManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManagerTests/Pods-WifiManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE7846780A9B0073910BDD8B /* libPods-WifiManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WifiManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E69D80DC82EF4B9E6471E7C0 /* libPods-WifiManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8D4533E232B5F27F501BC4 /* libPods-WifiManagerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC29C18697A8CAF951A29E4 /* libPods-WifiManagerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +182,8 @@
 				546489971D75A9720053731B /* WifiManagerTests */,
 				546489A21D75A9720053731B /* WifiManagerUITests */,
 				5464897C1D75A9720053731B /* Products */,
+				8DABA477336FDD44BCCC48B2 /* Pods */,
+				8215319D919A0607D843C5BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +200,7 @@
 		5464897D1D75A9720053731B /* WifiManager */ = {
 			isa = PBXGroup;
 			children = (
-				546489811D75A9720053731B /* AppDelegate.h */,
-				546489821D75A9720053731B /* AppDelegate.m */,
-				546489841D75A9720053731B /* ViewController.h */,
-				546489851D75A9720053731B /* ViewController.m */,
-				546489871D75A9720053731B /* Main.storyboard */,
-				5464898A1D75A9720053731B /* Assets.xcassets */,
-				5464898C1D75A9720053731B /* LaunchScreen.storyboard */,
-				5464898F1D75A9720053731B /* Info.plist */,
+				546489BA1D75BC7C0053731B /* Classes */,
 				5464897E1D75A9720053731B /* Supporting Files */,
 			);
 			path = WifiManager;
@@ -117,6 +209,11 @@
 		5464897E1D75A9720053731B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				546489E21D75C32F0053731B /* deviceIcon.plist */,
+				546489871D75A9720053731B /* Main.storyboard */,
+				5464898A1D75A9720053731B /* Assets.xcassets */,
+				5464898C1D75A9720053731B /* LaunchScreen.storyboard */,
+				5464898F1D75A9720053731B /* Info.plist */,
 				5464897F1D75A9720053731B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +237,588 @@
 			path = WifiManagerUITests;
 			sourceTree = "<group>";
 		};
+		546489BA1D75BC7C0053731B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E4D1D75CDF8005ABD57 /* Ad(推广统计) */,
+				548D7E511D75CDF8005ABD57 /* ApManage(AP管理) */,
+				548D7E551D75CDF8005ABD57 /* Auth(认证授权) */,
+				548D7E591D75CDF8005ABD57 /* Custom(客流分析) */,
+				548D7E5D1D75CDF8005ABD57 /* Profile(个人中心) */,
+				548D7E611D75CDF8005ABD57 /* Search(搜索分析) */,
+				548D7E651D75CDF8005ABD57 /* SMS(短信访客) */,
+				548D7E691D75CDF8005ABD57 /* Wechat(微信访客) */,
+				548D7E6D1D75CDF8005ABD57 /* WIFi(无线网络) */,
+				548D7E711D75CDF8005ABD57 /* WifiState(无线状态) */,
+				546489C71D75BE5C0053731B /* Device(设备管理) */,
+				546489CB1D75BE5C0053731B /* Forum(技术论坛) */,
+				546489CF1D75BE5C0053731B /* Profile(个人中心) */,
+				546489BB1D75BC7C0053731B /* Main(主要) */,
+				546489C11D75BC7C0053731B /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		546489BB1D75BC7C0053731B /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				546489BC1D75BC7C0053731B /* Controller */,
+				546489BF1D75BC7C0053731B /* Model */,
+				546489C01D75BC7C0053731B /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		546489BC1D75BC7C0053731B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				546489BD1D75BC7C0053731B /* WMTabBarViewController.h */,
+				546489BE1D75BC7C0053731B /* WMTabBarViewController.m */,
+				548D7E901D75CF62005ABD57 /* WMNavigationController.h */,
+				548D7E911D75CF62005ABD57 /* WMNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		546489BF1D75BC7C0053731B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		546489C01D75BC7C0053731B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		546489C11D75BC7C0053731B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				548D7EF51D7737FB005ABD57 /* NetworkManager */,
+				548D7E491D75C7BC005ABD57 /* Category */,
+				546489C21D75BC7C0053731B /* AppDelegate.h */,
+				546489C31D75BC7C0053731B /* AppDelegate.m */,
+				546489C41D75BC7C0053731B /* WifiManager.pch */,
+				546489DF1D75C11D0053731B /* WMConstantVA.h */,
+				546489E01D75C11D0053731B /* WMConstantVA.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		546489C71D75BE5C0053731B /* Device(设备管理) */ = {
+			isa = PBXGroup;
+			children = (
+				546489D31D75BE770053731B /* Device.storyboard */,
+				548D7E961D75DE5A005ABD57 /* Login */,
+				546489C81D75BE5C0053731B /* Controller */,
+				546489C91D75BE5C0053731B /* Model */,
+				546489CA1D75BE5C0053731B /* View */,
+			);
+			path = "Device(设备管理)";
+			sourceTree = "<group>";
+		};
+		546489C81D75BE5C0053731B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				546489DC1D75BF000053731B /* WMDeviceViewController.h */,
+				546489DD1D75BF000053731B /* WMDeviceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		546489C91D75BE5C0053731B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				546489E41D75C4D90053731B /* WMDeviceIcon.h */,
+				546489E51D75C4D90053731B /* WMDeviceIcon.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		546489CA1D75BE5C0053731B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E441D75C680005ABD57 /* WMDeviceCell.h */,
+				548D7E451D75C680005ABD57 /* WMDeviceCell.m */,
+				548D7E461D75C680005ABD57 /* WMDeviceCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		546489CB1D75BE5C0053731B /* Forum(技术论坛) */ = {
+			isa = PBXGroup;
+			children = (
+				546489D61D75BE870053731B /* Forum.storyboard */,
+				546489CC1D75BE5C0053731B /* Controller */,
+				546489CD1D75BE5C0053731B /* Model */,
+				546489CE1D75BE5C0053731B /* View */,
+			);
+			path = "Forum(技术论坛)";
+			sourceTree = "<group>";
+		};
+		546489CC1D75BE5C0053731B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		546489CD1D75BE5C0053731B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		546489CE1D75BE5C0053731B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		546489CF1D75BE5C0053731B /* Profile(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				546489D91D75BE980053731B /* Profile.storyboard */,
+				546489D01D75BE5C0053731B /* Controller */,
+				546489D11D75BE5C0053731B /* Model */,
+				546489D21D75BE5C0053731B /* View */,
+			);
+			path = "Profile(个人中心)";
+			sourceTree = "<group>";
+		};
+		546489D01D75BE5C0053731B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		546489D11D75BE5C0053731B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		546489D21D75BE5C0053731B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		546EDFA11D784893001CE4EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				546EDFAB1D7848A4001CE4EE /* WMUserAccout.h */,
+				546EDFAC1D7848A4001CE4EE /* WMUserAccout.m */,
+				546EDFAE1D784CCA001CE4EE /* WMUserAccoutViewModel.h */,
+				546EDFAF1D784CCA001CE4EE /* WMUserAccoutViewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		546EDFA21D784893001CE4EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				546EDFA31D784893001CE4EE /* WMLoginView.h */,
+				546EDFA41D784893001CE4EE /* WMLoginView.m */,
+				546EDFA51D784893001CE4EE /* WMLoginView.xib */,
+				546EDFA61D784893001CE4EE /* WMTextField.h */,
+				546EDFA71D784893001CE4EE /* WMTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		548D7E491D75C7BC005ABD57 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E931D75D0B7005ABD57 /* UIBarButtonItem+CMExtension.h */,
+				548D7E941D75D0B7005ABD57 /* UIBarButtonItem+CMExtension.m */,
+				548D7E4A1D75C81D005ABD57 /* UIView+CMFrame.h */,
+				548D7E4B1D75C81D005ABD57 /* UIView+CMFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		548D7E4D1D75CDF8005ABD57 /* Ad(推广统计) */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E4E1D75CDF8005ABD57 /* Controller */,
+				548D7E4F1D75CDF8005ABD57 /* Model */,
+				548D7E501D75CDF8005ABD57 /* View */,
+			);
+			path = "Ad(推广统计)";
+			sourceTree = "<group>";
+		};
+		548D7E4E1D75CDF8005ABD57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E871D75CEB3005ABD57 /* WMAdViewController.h */,
+				548D7E881D75CEB3005ABD57 /* WMAdViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		548D7E4F1D75CDF8005ABD57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		548D7E501D75CDF8005ABD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		548D7E511D75CDF8005ABD57 /* ApManage(AP管理) */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E521D75CDF8005ABD57 /* Controller */,
+				548D7E531D75CDF8005ABD57 /* Model */,
+				548D7E541D75CDF8005ABD57 /* View */,
+			);
+			path = "ApManage(AP管理)";
+			sourceTree = "<group>";
+		};
+		548D7E521D75CDF8005ABD57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E781D75CE41005ABD57 /* WMApManageViewController.h */,
+				548D7E791D75CE41005ABD57 /* WMApManageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		548D7E531D75CDF8005ABD57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		548D7E541D75CDF8005ABD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		548D7E551D75CDF8005ABD57 /* Auth(认证授权) */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E561D75CDF8005ABD57 /* Controller */,
+				548D7E571D75CDF8005ABD57 /* Model */,
+				548D7E581D75CDF8005ABD57 /* View */,
+			);
+			path = "Auth(认证授权)";
+			sourceTree = "<group>";
+		};
+		548D7E561D75CDF8005ABD57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E7E1D75CE75005ABD57 /* WMAuthViewController.h */,
+				548D7E7F1D75CE75005ABD57 /* WMAuthViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		548D7E571D75CDF8005ABD57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		548D7E581D75CDF8005ABD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		548D7E591D75CDF8005ABD57 /* Custom(客流分析) */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E5A1D75CDF8005ABD57 /* Controller */,
+				548D7E5B1D75CDF8005ABD57 /* Model */,
+				548D7E5C1D75CDF8005ABD57 /* View */,
+			);
+			path = "Custom(客流分析)";
+			sourceTree = "<group>";
+		};
+		548D7E5A1D75CDF8005ABD57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E841D75CEA3005ABD57 /* WMCustomViewController.h */,
+				548D7E851D75CEA3005ABD57 /* WMCustomViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		548D7E5B1D75CDF8005ABD57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		548D7E5C1D75CDF8005ABD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		548D7E5D1D75CDF8005ABD57 /* Profile(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E5E1D75CDF8005ABD57 /* Controller */,
+				548D7E5F1D75CDF8005ABD57 /* Model */,
+				548D7E601D75CDF8005ABD57 /* View */,
+			);
+			path = "Profile(个人中心)";
+			sourceTree = "<group>";
+		};
+		548D7E5E1D75CDF8005ABD57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		548D7E5F1D75CDF8005ABD57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		548D7E601D75CDF8005ABD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		548D7E611D75CDF8005ABD57 /* Search(搜索分析) */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E621D75CDF8005ABD57 /* Controller */,
+				548D7E631D75CDF8005ABD57 /* Model */,
+				548D7E641D75CDF8005ABD57 /* View */,
+			);
+			path = "Search(搜索分析)";
+			sourceTree = "<group>";
+		};
+		548D7E621D75CDF8005ABD57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E811D75CE8C005ABD57 /* WMSearchViewController.h */,
+				548D7E821D75CE8C005ABD57 /* WMSearchViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		548D7E631D75CDF8005ABD57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		548D7E641D75CDF8005ABD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		548D7E651D75CDF8005ABD57 /* SMS(短信访客) */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E661D75CDF8005ABD57 /* Controller */,
+				548D7E671D75CDF8005ABD57 /* Model */,
+				548D7E681D75CDF8005ABD57 /* View */,
+			);
+			path = "SMS(短信访客)";
+			sourceTree = "<group>";
+		};
+		548D7E661D75CDF8005ABD57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E8D1D75CEDF005ABD57 /* WMSmsViewController.h */,
+				548D7E8E1D75CEDF005ABD57 /* WMSmsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		548D7E671D75CDF8005ABD57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		548D7E681D75CDF8005ABD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		548D7E691D75CDF8005ABD57 /* Wechat(微信访客) */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E6A1D75CDF8005ABD57 /* Controller */,
+				548D7E6B1D75CDF8005ABD57 /* Model */,
+				548D7E6C1D75CDF8005ABD57 /* View */,
+			);
+			path = "Wechat(微信访客)";
+			sourceTree = "<group>";
+		};
+		548D7E6A1D75CDF8005ABD57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E8A1D75CEC7005ABD57 /* WMWechatViewController.h */,
+				548D7E8B1D75CEC7005ABD57 /* WMWechatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		548D7E6B1D75CDF8005ABD57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		548D7E6C1D75CDF8005ABD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		548D7E6D1D75CDF8005ABD57 /* WIFi(无线网络) */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E6E1D75CDF8005ABD57 /* Controller */,
+				548D7E6F1D75CDF8005ABD57 /* Model */,
+				548D7E701D75CDF8005ABD57 /* View */,
+			);
+			path = "WIFi(无线网络)";
+			sourceTree = "<group>";
+		};
+		548D7E6E1D75CDF8005ABD57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E7B1D75CE62005ABD57 /* WMWifiViewController.h */,
+				548D7E7C1D75CE62005ABD57 /* WMWifiViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		548D7E6F1D75CDF8005ABD57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		548D7E701D75CDF8005ABD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		548D7E711D75CDF8005ABD57 /* WifiState(无线状态) */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E721D75CDF8005ABD57 /* Controller */,
+				548D7E731D75CDF8005ABD57 /* Model */,
+				548D7E741D75CDF8005ABD57 /* View */,
+			);
+			path = "WifiState(无线状态)";
+			sourceTree = "<group>";
+		};
+		548D7E721D75CDF8005ABD57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				548D7E751D75CE21005ABD57 /* WMWifiStateViewController.h */,
+				548D7E761D75CE21005ABD57 /* WMWifiStateViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		548D7E731D75CDF8005ABD57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		548D7E741D75CDF8005ABD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		548D7E961D75DE5A005ABD57 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				546EDFA11D784893001CE4EE /* Model */,
+				546EDFA21D784893001CE4EE /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		548D7EF51D7737FB005ABD57 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				548D7EF61D7737FB005ABD57 /* CMCookiesHandler.h */,
+				548D7EF71D7737FB005ABD57 /* CMCookiesHandler.m */,
+				548D7EF81D7737FB005ABD57 /* CMHTTPSessionManager.h */,
+				548D7EF91D7737FB005ABD57 /* CMHTTPSessionManager.m */,
+				548D7EFA1D7737FB005ABD57 /* CMNetworkManager.h */,
+				548D7EFB1D7737FB005ABD57 /* CMNetworkManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		8215319D919A0607D843C5BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE7846780A9B0073910BDD8B /* libPods-WifiManager.a */,
+				29E67B84101F7E224448365F /* libPods-WifiManagerTests.a */,
+				41AC0A0C505DAA9F087B6B54 /* libPods-WifiManagerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DABA477336FDD44BCCC48B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B102727B661BE29444DF8027 /* Pods-WifiManager.debug.xcconfig */,
+				043E1FC394B801015D37AF7A /* Pods-WifiManager.release.xcconfig */,
+				5E121FB57FE3015601FFF205 /* Pods-WifiManagerTests.debug.xcconfig */,
+				F66D251BEC2544B0D1BE1EA2 /* Pods-WifiManagerTests.release.xcconfig */,
+				8347E5D0968E6CCB2C31BC08 /* Pods-WifiManagerUITests.debug.xcconfig */,
+				DBECC83EBCB96961C39E47FD /* Pods-WifiManagerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +826,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 546489A81D75A9720053731B /* Build configuration list for PBXNativeTarget "WifiManager" */;
 			buildPhases = (
+				4C0389E901A2DE80986BC6F0 /* [CP] Check Pods Manifest.lock */,
 				546489771D75A9720053731B /* Sources */,
 				546489781D75A9720053731B /* Frameworks */,
 				546489791D75A9720053731B /* Resources */,
+				DF2CE6E55480CBCA8D42A2BE /* [CP] Embed Pods Frameworks */,
+				06F5A2C3B351A39675F1F04C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +846,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 546489AB1D75A9720053731B /* Build configuration list for PBXNativeTarget "WifiManagerTests" */;
 			buildPhases = (
+				E661B70D38CFAED86C9D0940 /* [CP] Check Pods Manifest.lock */,
 				546489901D75A9720053731B /* Sources */,
 				546489911D75A9720053731B /* Frameworks */,
 				546489921D75A9720053731B /* Resources */,
+				590C6AE8FCCBCC7211F9B77B /* [CP] Embed Pods Frameworks */,
+				B0D714F516531A8E5881916D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +867,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 546489AE1D75A9720053731B /* Build configuration list for PBXNativeTarget "WifiManagerUITests" */;
 			buildPhases = (
+				5E9366475DA1EA63501781D7 /* [CP] Check Pods Manifest.lock */,
 				5464899B1D75A9720053731B /* Sources */,
 				5464899C1D75A9720053731B /* Frameworks */,
 				5464899D1D75A9720053731B /* Resources */,
+				B7A71CEC6BB4906EDDD67BEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +889,7 @@
 		546489731D75A9720053731B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WM;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "陈华";
 				TargetAttributes = {
@@ -246,7 +934,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546489DB1D75BE980053731B /* Profile.storyboard in Resources */,
+				546489D51D75BE770053731B /* Device.storyboard in Resources */,
+				546489E31D75C32F0053731B /* deviceIcon.plist in Resources */,
+				546489D81D75BE870053731B /* Forum.storyboard in Resources */,
+				546EDFA91D784893001CE4EE /* WMLoginView.xib in Resources */,
 				5464898E1D75A9720053731B /* LaunchScreen.storyboard in Resources */,
+				548D7E481D75C680005ABD57 /* WMDeviceCell.xib in Resources */,
 				5464898B1D75A9720053731B /* Assets.xcassets in Resources */,
 				546489891D75A9720053731B /* Main.storyboard in Resources */,
 			);
@@ -268,14 +962,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06F5A2C3B351A39675F1F04C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifiManager/Pods-WifiManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C0389E901A2DE80986BC6F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		590C6AE8FCCBCC7211F9B77B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifiManagerTests/Pods-WifiManagerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9366475DA1EA63501781D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0D714F516531A8E5881916D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifiManagerTests/Pods-WifiManagerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A71CEC6BB4906EDDD67BEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifiManagerUITests/Pods-WifiManagerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF2CE6E55480CBCA8D42A2BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifiManager/Pods-WifiManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E661B70D38CFAED86C9D0940 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		546489771D75A9720053731B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546489861D75A9720053731B /* ViewController.m in Sources */,
-				546489831D75A9720053731B /* AppDelegate.m in Sources */,
+				548D7EFD1D7737FB005ABD57 /* CMHTTPSessionManager.m in Sources */,
+				548D7EFE1D7737FB005ABD57 /* CMNetworkManager.m in Sources */,
+				548D7E7A1D75CE41005ABD57 /* WMApManageViewController.m in Sources */,
+				546489C51D75BC7C0053731B /* WMTabBarViewController.m in Sources */,
+				548D7E8C1D75CEC7005ABD57 /* WMWechatViewController.m in Sources */,
 				546489801D75A9720053731B /* main.m in Sources */,
+				548D7EFC1D7737FB005ABD57 /* CMCookiesHandler.m in Sources */,
+				546EDFAD1D7848A4001CE4EE /* WMUserAccout.m in Sources */,
+				548D7E831D75CE8C005ABD57 /* WMSearchViewController.m in Sources */,
+				548D7E4C1D75C81D005ABD57 /* UIView+CMFrame.m in Sources */,
+				546489E61D75C4D90053731B /* WMDeviceIcon.m in Sources */,
+				548D7E7D1D75CE62005ABD57 /* WMWifiViewController.m in Sources */,
+				548D7E8F1D75CEDF005ABD57 /* WMSmsViewController.m in Sources */,
+				548D7E801D75CE75005ABD57 /* WMAuthViewController.m in Sources */,
+				546EDFAA1D784893001CE4EE /* WMTextField.m in Sources */,
+				548D7E771D75CE21005ABD57 /* WMWifiStateViewController.m in Sources */,
+				548D7E951D75D0B7005ABD57 /* UIBarButtonItem+CMExtension.m in Sources */,
+				548D7E891D75CEB3005ABD57 /* WMAdViewController.m in Sources */,
+				548D7E861D75CEA3005ABD57 /* WMCustomViewController.m in Sources */,
+				548D7E921D75CF62005ABD57 /* WMNavigationController.m in Sources */,
+				546489E11D75C11D0053731B /* WMConstantVA.m in Sources */,
+				546EDFA81D784893001CE4EE /* WMLoginView.m in Sources */,
+				546EDFB01D784CCA001CE4EE /* WMUserAccoutViewModel.m in Sources */,
+				546489DE1D75BF000053731B /* WMDeviceViewController.m in Sources */,
+				546489C61D75BC7C0053731B /* AppDelegate.m in Sources */,
+				548D7E471D75C680005ABD57 /* WMDeviceCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +1165,33 @@
 				5464898D1D75A9720053731B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		546489D31D75BE770053731B /* Device.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546489D41D75BE770053731B /* Base */,
+			);
+			name = Device.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		546489D61D75BE870053731B /* Forum.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546489D71D75BE870053731B /* Base */,
+			);
+			name = Forum.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		546489D91D75BE980053731B /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546489DA1D75BE980053731B /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,8 +1279,10 @@
 		};
 		546489A91D75A9720053731B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B102727B661BE29444DF8027 /* Pods-WifiManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Classes/Other/WifiManager.pch";
 				INFOPLIST_FILE = WifiManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -424,8 +1293,10 @@
 		};
 		546489AA1D75A9720053731B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043E1FC394B801015D37AF7A /* Pods-WifiManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Classes/Other/WifiManager.pch";
 				INFOPLIST_FILE = WifiManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -436,6 +1307,7 @@
 		};
 		546489AC1D75A9720053731B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E121FB57FE3015601FFF205 /* Pods-WifiManagerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WifiManagerTests/Info.plist;
@@ -448,6 +1320,7 @@
 		};
 		546489AD1D75A9720053731B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66D251BEC2544B0D1BE1EA2 /* Pods-WifiManagerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WifiManagerTests/Info.plist;
@@ -460,6 +1333,7 @@
 		};
 		546489AF1D75A9720053731B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8347E5D0968E6CCB2C31BC08 /* Pods-WifiManagerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WifiManagerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -472,6 +1346,7 @@
 		};
 		546489B01D75A9720053731B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBECC83EBCB96961C39E47FD /* Pods-WifiManagerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WifiManagerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -501,6 +1376,7 @@
 				546489AA1D75A9720053731B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		546489AB1D75A9720053731B /* Build configuration list for PBXNativeTarget "WifiManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +1385,7 @@
 				546489AD1D75A9720053731B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		546489AE1D75A9720053731B /* Build configuration list for PBXNativeTarget "WifiManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +1394,7 @@
 				546489B01D75A9720053731B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

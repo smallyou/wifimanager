@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WMWechatViewController.h
 //  WifiManager
 //
 //  Created by 陈华 on 16/8/30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WMWechatViewController : UITableViewController
 
 @end
-

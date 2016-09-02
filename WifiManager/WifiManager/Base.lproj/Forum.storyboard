@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jUq-b2-HBf">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--技术论坛-->
+        <scene sceneID="wuW-VE-FxV">
+            <objects>
+                <tableViewController id="sNN-wp-mHi" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Jmo-12-B0a">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="GUm-GW-A9A">
+                                <rect key="frame" x="0.0" y="92" width="400" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GUm-GW-A9A" id="TeW-oO-bfo">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="sNN-wp-mHi" id="RWX-7r-i6C"/>
+                            <outlet property="delegate" destination="sNN-wp-mHi" id="KLq-Y7-V73"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="技术论坛" id="tyX-90-4Ul"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HJn-Aa-Unt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="174" y="-20"/>
+        </scene>
+        <!--技术论坛-->
+        <scene sceneID="GUP-s3-K8k">
+            <objects>
+                <navigationController id="jUq-b2-HBf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="技术论坛" image="tabBar_forum_normal" selectedImage="tabBar_forum_click" id="9iq-OC-pmQ"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="AbstractSizeClassScreen[widthClass=compact]"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6ZN-hp-zVs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="sNN-wp-mHi" kind="relationship" relationship="rootViewController" id="s9K-f1-iTX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="peA-rf-yko" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-756" y="-20"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabBar_forum_click" width="32" height="32"/>
+        <image name="tabBar_forum_normal" width="32" height="32"/>
+    </resources>
+</document>
