@@ -18,7 +18,10 @@
     [button setImage:image forState:UIControlStateNormal];
     [button setImage:highImage forState:UIControlStateHighlighted];
     [button sizeToFit];
+    [button setTitleColor:WMColor(97, 97, 97) forState:UIControlStateNormal];
+    [button setTitleColor:WMColor(86, 171, 228) forState:UIControlStateHighlighted];
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    button.titleLabel.font = [UIFont systemFontOfSize:15.0];
     UIView *contentView = [[UIView alloc]init];
     contentView.frame = button.bounds;
     [contentView addSubview:button];

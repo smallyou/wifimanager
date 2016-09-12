@@ -93,6 +93,10 @@ typedef NS_ENUM(NSInteger,CMLoginStatus) {
     //5 手动触发检查文本是否为空，按钮是否可用
     [self textChanged:self.usernameTextField];
     
+    //6 添加手势
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapScreen)];
+    [self addGestureRecognizer:tap];
+    
     
 }
 
@@ -153,6 +157,12 @@ typedef NS_ENUM(NSInteger,CMLoginStatus) {
     
 }
 
+/**点击屏幕手势*/
+- (void)tapScreen
+{
+    [self endEditing:true];
+}
+
 
 
 #pragma mark - 数据请求
@@ -164,8 +174,6 @@ typedef NS_ENUM(NSInteger,CMLoginStatus) {
         
         if (success) {
             //登录成功
-            //3.1 取消提示
-            [self setupTipsStatus:CMLoginStatusSuccessed];
             
             //3.2 创建用户信息对象
             WMUserAccout *userAccout = [[WMUserAccout alloc]init];
@@ -209,7 +217,10 @@ typedef NS_ENUM(NSInteger,CMLoginStatus) {
             [[WMUserAccoutViewModel shareInstance] savedUserAccoutToSandBox];
             [WMUserAccoutViewModel shareInstance].logout = NO;
             
-            //3 跳转页面
+            //3 取消提示
+            [self setupTipsStatus:CMLoginStatusSuccessed];
+            
+            //4 跳转页面
             [UIApplication sharedApplication].keyWindow.rootViewController = [UIStoryboard storyboardWithName:@"Main" bundle:nil].instantiateInitialViewController;
         }
         else{

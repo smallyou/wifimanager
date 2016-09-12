@@ -17,3 +17,6 @@ UIKIT_EXTERN const CGFloat margin;
 /**cookies持久化*/
 UIKIT_EXTERN NSString * const CMCookiesStoredKey;
 
+/**无线网络请求数据个数*/
+UIKIT_EXTERN const NSInteger CMNetworkLimit;
+

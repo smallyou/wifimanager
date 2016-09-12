@@ -13,3 +13,7 @@ const CGFloat margin = 10;
 
 
 NSString * const CMCookiesStoredKey = @"CMCookiesStoredKey";
+
+
+const NSInteger CMNetworkLimit = 25;
+

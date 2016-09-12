@@ -9,20 +9,7 @@
 #import "CMNetworkManager.h"
 #import "CMHTTPSessionManager.h"
 
-typedef NS_ENUM(NSInteger,CMRequestType){
-    
-    CMRequestTypePost = 0, //POST请求
-    CMRequestTypeGet = 1 //GET请求
-    
-} ;
 
-typedef NS_ENUM(NSInteger,CMErrorCode){
-    
-    CMErrorCodeLoginFailed = -1 , //登录失败
-    CMErrorCodeLoginSuccessed = 0 , //登录成功
-    CMErrorCodeLoginException = 1 , //登录异常，可能是用户名密码错误
-    
-};
 
 
 
@@ -62,6 +49,7 @@ typedef NS_ENUM(NSInteger,CMErrorCode){
     }
     
 }
+
 
 /**发起登录请求*/
 +(void)loginRequest:(NSString *)server username:(NSString *)username password:(NSString *)password competation:(void(^)(BOOL success , NSError *error))competation
@@ -149,6 +137,7 @@ typedef NS_ENUM(NSInteger,CMErrorCode){
     
 }
 
+
 /**获取用户名称*/
 +(void)requestForCustomer:(NSString *)server competation:(void(^)(NSString *customer,NSError *error))competation
 {
@@ -170,6 +159,77 @@ typedef NS_ENUM(NSInteger,CMErrorCode){
         competation(customer,nil);
     }];
 }
+
+
+/**获取无线网络数据*/
++(void)requestforNetwork:(NSString *)server start:(NSInteger)start limit:(NSInteger)limit competation:(void(^)(NSArray<NSDictionary *> *data , NSError *error))competation
+{
+    //1 构造请求地址 https://115.85.207.229:4433/index.php/wl_network
+    NSString *url = [NSString stringWithFormat:@"%@/index.php/wl_network",server];
+    
+    //2 拼接请求参数
+    NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
+    parameters[@"direction"] = @"ASC";
+    parameters[@"limit"] = @(limit);
+    parameters[@"opr"] = @"list";
+    parameters[@"sort"] = @"ssid";
+    parameters[@"start"] = @(start);
+    
+    //3 发起请求
+    [self request:CMRequestTypePost url:url parameters:parameters competation:^(id result, NSError *error) {
+       
+        //判断错误
+        if (error) {
+            competation(nil,error);
+            return ;
+        }
+        
+        //json序列化
+        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:result options:NSJSONReadingMutableContainers error:nil];
+        NSArray *data = dict[@"data"];
+        competation(data,nil);
+        
+    }];
+}
+
+/**对无线网络操作*/
++(void)operationForNetwork:(NSString *)server opr:(WMNetworkOperation)opr ids:(NSArray *)ids competation:(void(^)(BOOL success))competation
+{
+    //1 构造请求地址 https://115.85.207.229:4433/index.php/wl_network
+    NSString *url = [NSString stringWithFormat:@"%@/index.php/wl_network",server];
+    
+    //2 拼接请求参数 {"opr":"setStatus","enable":true,"ids":[5]}
+    NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
+    if (opr == WMNetworkOperationEnable) {
+        parameters[@"opr"] = @"setStatus";
+        parameters[@"enable"] = @(YES);
+        parameters[@"ids"] = ids;
+    }
+    else if (opr == WMNetworkOperationDisable){
+        parameters[@"opr"] = @"setStatus";
+        parameters[@"ids"] = ids;
+    }
+    else {
+        parameters[@"opr"] = @"delete";
+        parameters[@"ids"] = ids;
+    }
+    
+    //3 发起请求
+    [self request:CMRequestTypePost url:url parameters:parameters competation:^(id result, NSError *error) {
+        //判断错误
+        if(error)
+        {
+            competation(false);
+            return;
+        }
+        
+        //json序列化
+        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:result options:NSJSONReadingMutableContainers error:nil];
+        competation(dict[@"success"]);
+        
+    }];
+}
+
 
 @end
 

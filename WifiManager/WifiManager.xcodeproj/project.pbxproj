@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3BC29C18697A8CAF951A29E4 /* libPods-WifiManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AC0A0C505DAA9F087B6B54 /* libPods-WifiManagerUITests.a */; };
+		543B3B051D80604B0032B506 /* WMNetworkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 543B3B031D80604B0032B506 /* WMNetworkCell.m */; settings = {ASSET_TAGS = (); }; };
+		543B3B061D80604B0032B506 /* WMNetworkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 543B3B041D80604B0032B506 /* WMNetworkCell.xib */; settings = {ASSET_TAGS = (); }; };
+		543B3B0A1D8398120032B506 /* WMNetworkViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 543B3B091D8398120032B506 /* WMNetworkViewModel.m */; settings = {ASSET_TAGS = (); }; };
 		546489801D75A9720053731B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5464897F1D75A9720053731B /* main.m */; };
 		546489891D75A9720053731B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546489871D75A9720053731B /* Main.storyboard */; };
 		5464898B1D75A9720053731B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5464898A1D75A9720053731B /* Assets.xcassets */; };
@@ -28,6 +31,7 @@
 		546EDFAA1D784893001CE4EE /* WMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EDFA71D784893001CE4EE /* WMTextField.m */; settings = {ASSET_TAGS = (); }; };
 		546EDFAD1D7848A4001CE4EE /* WMUserAccout.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EDFAC1D7848A4001CE4EE /* WMUserAccout.m */; settings = {ASSET_TAGS = (); }; };
 		546EDFB01D784CCA001CE4EE /* WMUserAccoutViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EDFAF1D784CCA001CE4EE /* WMUserAccoutViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		5477E2021D7C01B900BEC3EB /* WMNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5477E2011D7C01B900BEC3EB /* WMNetwork.m */; settings = {ASSET_TAGS = (); }; };
 		548D7E471D75C680005ABD57 /* WMDeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E451D75C680005ABD57 /* WMDeviceCell.m */; settings = {ASSET_TAGS = (); }; };
 		548D7E481D75C680005ABD57 /* WMDeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548D7E461D75C680005ABD57 /* WMDeviceCell.xib */; settings = {ASSET_TAGS = (); }; };
 		548D7E4C1D75C81D005ABD57 /* UIView+CMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E4B1D75C81D005ABD57 /* UIView+CMFrame.m */; settings = {ASSET_TAGS = (); }; };
@@ -45,6 +49,20 @@
 		548D7EFC1D7737FB005ABD57 /* CMCookiesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7EF71D7737FB005ABD57 /* CMCookiesHandler.m */; settings = {ASSET_TAGS = (); }; };
 		548D7EFD1D7737FB005ABD57 /* CMHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7EF91D7737FB005ABD57 /* CMHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
 		548D7EFE1D7737FB005ABD57 /* CMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7EFB1D7737FB005ABD57 /* CMNetworkManager.m */; settings = {ASSET_TAGS = (); }; };
+		54B762091D83D5B100E2FCCC /* SVProgressHUD+WMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B762081D83D5B100E2FCCC /* SVProgressHUD+WMExtension.m */; settings = {ASSET_TAGS = (); }; };
+		54B762151D83EE3500E2FCCC /* WMPlusPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B762121D83EE3500E2FCCC /* WMPlusPopViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54B762161D83EE3500E2FCCC /* WMWifiAnimatorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B762141D83EE3500E2FCCC /* WMWifiAnimatorTool.m */; settings = {ASSET_TAGS = (); }; };
+		54B762191D83EEE100E2FCCC /* WMPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B762181D83EEE100E2FCCC /* WMPresentationController.m */; settings = {ASSET_TAGS = (); }; };
+		54B7621D1D842EA000E2FCCC /* WMAddPskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B7621B1D842EA000E2FCCC /* WMAddPskViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54B7621E1D842EA000E2FCCC /* WMAddPskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54B7621C1D842EA000E2FCCC /* WMAddPskViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		54B762221D84660300E2FCCC /* WMAddSmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B762201D84660300E2FCCC /* WMAddSmsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54B762231D84660300E2FCCC /* WMAddSmsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54B762211D84660300E2FCCC /* WMAddSmsViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		54B762271D84661800E2FCCC /* WMAddWechatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B762251D84661800E2FCCC /* WMAddWechatViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54B762281D84661800E2FCCC /* WMAddWechatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54B762261D84661800E2FCCC /* WMAddWechatViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		54B7622C1D84663100E2FCCC /* WMAddQrcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B7622A1D84663100E2FCCC /* WMAddQrcodeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54B7622D1D84663100E2FCCC /* WMAddQrcodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54B7622B1D84663100E2FCCC /* WMAddQrcodeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		54EF6DE21D85035300236233 /* WMApManageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6DE01D85035300236233 /* WMApManageCell.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6DE31D85035300236233 /* WMApManageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54EF6DE11D85035300236233 /* WMApManageCell.xib */; settings = {ASSET_TAGS = (); }; };
 		6F8D4533E232B5F27F501BC4 /* libPods-WifiManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E67B84101F7E224448365F /* libPods-WifiManagerTests.a */; };
 		E69D80DC82EF4B9E6471E7C0 /* libPods-WifiManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7846780A9B0073910BDD8B /* libPods-WifiManager.a */; };
 /* End PBXBuildFile section */
@@ -70,6 +88,11 @@
 		043E1FC394B801015D37AF7A /* Pods-WifiManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManager/Pods-WifiManager.release.xcconfig"; sourceTree = "<group>"; };
 		29E67B84101F7E224448365F /* libPods-WifiManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WifiManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AC0A0C505DAA9F087B6B54 /* libPods-WifiManagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WifiManagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		543B3B021D80604B0032B506 /* WMNetworkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNetworkCell.h; sourceTree = "<group>"; };
+		543B3B031D80604B0032B506 /* WMNetworkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNetworkCell.m; sourceTree = "<group>"; };
+		543B3B041D80604B0032B506 /* WMNetworkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMNetworkCell.xib; sourceTree = "<group>"; };
+		543B3B081D8398120032B506 /* WMNetworkViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNetworkViewModel.h; sourceTree = "<group>"; };
+		543B3B091D8398120032B506 /* WMNetworkViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNetworkViewModel.m; sourceTree = "<group>"; };
 		5464897B1D75A9720053731B /* WifiManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5464897F1D75A9720053731B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		546489881D75A9720053731B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,6 +129,8 @@
 		546EDFAC1D7848A4001CE4EE /* WMUserAccout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMUserAccout.m; sourceTree = "<group>"; };
 		546EDFAE1D784CCA001CE4EE /* WMUserAccoutViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMUserAccoutViewModel.h; sourceTree = "<group>"; };
 		546EDFAF1D784CCA001CE4EE /* WMUserAccoutViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMUserAccoutViewModel.m; sourceTree = "<group>"; };
+		5477E2001D7C01B900BEC3EB /* WMNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNetwork.h; sourceTree = "<group>"; };
+		5477E2011D7C01B900BEC3EB /* WMNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNetwork.m; sourceTree = "<group>"; };
 		548D7E441D75C680005ABD57 /* WMDeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDeviceCell.h; sourceTree = "<group>"; };
 		548D7E451D75C680005ABD57 /* WMDeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDeviceCell.m; sourceTree = "<group>"; };
 		548D7E461D75C680005ABD57 /* WMDeviceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMDeviceCell.xib; sourceTree = "<group>"; };
@@ -139,6 +164,29 @@
 		548D7EF91D7737FB005ABD57 /* CMHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTTPSessionManager.m; sourceTree = "<group>"; };
 		548D7EFA1D7737FB005ABD57 /* CMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNetworkManager.h; sourceTree = "<group>"; };
 		548D7EFB1D7737FB005ABD57 /* CMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNetworkManager.m; sourceTree = "<group>"; };
+		54B762071D83D5B100E2FCCC /* SVProgressHUD+WMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+WMExtension.h"; sourceTree = "<group>"; };
+		54B762081D83D5B100E2FCCC /* SVProgressHUD+WMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+WMExtension.m"; sourceTree = "<group>"; };
+		54B762111D83EE3500E2FCCC /* WMPlusPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPlusPopViewController.h; sourceTree = "<group>"; };
+		54B762121D83EE3500E2FCCC /* WMPlusPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPlusPopViewController.m; sourceTree = "<group>"; };
+		54B762131D83EE3500E2FCCC /* WMWifiAnimatorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWifiAnimatorTool.h; sourceTree = "<group>"; };
+		54B762141D83EE3500E2FCCC /* WMWifiAnimatorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWifiAnimatorTool.m; sourceTree = "<group>"; };
+		54B762171D83EEE100E2FCCC /* WMPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPresentationController.h; sourceTree = "<group>"; };
+		54B762181D83EEE100E2FCCC /* WMPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPresentationController.m; sourceTree = "<group>"; };
+		54B7621A1D842EA000E2FCCC /* WMAddPskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAddPskViewController.h; sourceTree = "<group>"; };
+		54B7621B1D842EA000E2FCCC /* WMAddPskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAddPskViewController.m; sourceTree = "<group>"; };
+		54B7621C1D842EA000E2FCCC /* WMAddPskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAddPskViewController.xib; sourceTree = "<group>"; };
+		54B7621F1D84660300E2FCCC /* WMAddSmsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAddSmsViewController.h; sourceTree = "<group>"; };
+		54B762201D84660300E2FCCC /* WMAddSmsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAddSmsViewController.m; sourceTree = "<group>"; };
+		54B762211D84660300E2FCCC /* WMAddSmsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAddSmsViewController.xib; sourceTree = "<group>"; };
+		54B762241D84661800E2FCCC /* WMAddWechatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAddWechatViewController.h; sourceTree = "<group>"; };
+		54B762251D84661800E2FCCC /* WMAddWechatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAddWechatViewController.m; sourceTree = "<group>"; };
+		54B762261D84661800E2FCCC /* WMAddWechatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAddWechatViewController.xib; sourceTree = "<group>"; };
+		54B762291D84663100E2FCCC /* WMAddQrcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAddQrcodeViewController.h; sourceTree = "<group>"; };
+		54B7622A1D84663100E2FCCC /* WMAddQrcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAddQrcodeViewController.m; sourceTree = "<group>"; };
+		54B7622B1D84663100E2FCCC /* WMAddQrcodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAddQrcodeViewController.xib; sourceTree = "<group>"; };
+		54EF6DDF1D85035300236233 /* WMApManageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMApManageCell.h; sourceTree = "<group>"; };
+		54EF6DE01D85035300236233 /* WMApManageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMApManageCell.m; sourceTree = "<group>"; };
+		54EF6DE11D85035300236233 /* WMApManageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMApManageCell.xib; sourceTree = "<group>"; };
 		5E121FB57FE3015601FFF205 /* Pods-WifiManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManagerTests/Pods-WifiManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8347E5D0968E6CCB2C31BC08 /* Pods-WifiManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManagerUITests/Pods-WifiManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B102727B661BE29444DF8027 /* Pods-WifiManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManager/Pods-WifiManager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +223,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		543B3B071D8397D80032B506 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				543B3B081D8398120032B506 /* WMNetworkViewModel.h */,
+				543B3B091D8398120032B506 /* WMNetworkViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		546489721D75A9720053731B = {
 			isa = PBXGroup;
 			children = (
@@ -442,6 +499,8 @@
 				548D7E941D75D0B7005ABD57 /* UIBarButtonItem+CMExtension.m */,
 				548D7E4A1D75C81D005ABD57 /* UIView+CMFrame.h */,
 				548D7E4B1D75C81D005ABD57 /* UIView+CMFrame.m */,
+				54B762071D83D5B100E2FCCC /* SVProgressHUD+WMExtension.h */,
+				54B762081D83D5B100E2FCCC /* SVProgressHUD+WMExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -508,6 +567,9 @@
 		548D7E541D75CDF8005ABD57 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				54EF6DDF1D85035300236233 /* WMApManageCell.h */,
+				54EF6DE01D85035300236233 /* WMApManageCell.m */,
+				54EF6DE11D85035300236233 /* WMApManageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -711,6 +773,8 @@
 		548D7E6D1D75CDF8005ABD57 /* WIFi(无线网络) */ = {
 			isa = PBXGroup;
 			children = (
+				54B762101D83EE3500E2FCCC /* Pop(弹出VC及动画) */,
+				543B3B071D8397D80032B506 /* ViewModel */,
 				548D7E6E1D75CDF8005ABD57 /* Controller */,
 				548D7E6F1D75CDF8005ABD57 /* Model */,
 				548D7E701D75CDF8005ABD57 /* View */,
@@ -723,6 +787,18 @@
 			children = (
 				548D7E7B1D75CE62005ABD57 /* WMWifiViewController.h */,
 				548D7E7C1D75CE62005ABD57 /* WMWifiViewController.m */,
+				54B7621A1D842EA000E2FCCC /* WMAddPskViewController.h */,
+				54B7621B1D842EA000E2FCCC /* WMAddPskViewController.m */,
+				54B7621C1D842EA000E2FCCC /* WMAddPskViewController.xib */,
+				54B7621F1D84660300E2FCCC /* WMAddSmsViewController.h */,
+				54B762201D84660300E2FCCC /* WMAddSmsViewController.m */,
+				54B762211D84660300E2FCCC /* WMAddSmsViewController.xib */,
+				54B762241D84661800E2FCCC /* WMAddWechatViewController.h */,
+				54B762251D84661800E2FCCC /* WMAddWechatViewController.m */,
+				54B762261D84661800E2FCCC /* WMAddWechatViewController.xib */,
+				54B762291D84663100E2FCCC /* WMAddQrcodeViewController.h */,
+				54B7622A1D84663100E2FCCC /* WMAddQrcodeViewController.m */,
+				54B7622B1D84663100E2FCCC /* WMAddQrcodeViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -730,6 +806,8 @@
 		548D7E6F1D75CDF8005ABD57 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5477E2001D7C01B900BEC3EB /* WMNetwork.h */,
+				5477E2011D7C01B900BEC3EB /* WMNetwork.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -737,6 +815,9 @@
 		548D7E701D75CDF8005ABD57 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				543B3B021D80604B0032B506 /* WMNetworkCell.h */,
+				543B3B031D80604B0032B506 /* WMNetworkCell.m */,
+				543B3B041D80604B0032B506 /* WMNetworkCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -794,6 +875,19 @@
 				548D7EFB1D7737FB005ABD57 /* CMNetworkManager.m */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		54B762101D83EE3500E2FCCC /* Pop(弹出VC及动画) */ = {
+			isa = PBXGroup;
+			children = (
+				54B762111D83EE3500E2FCCC /* WMPlusPopViewController.h */,
+				54B762121D83EE3500E2FCCC /* WMPlusPopViewController.m */,
+				54B762131D83EE3500E2FCCC /* WMWifiAnimatorTool.h */,
+				54B762141D83EE3500E2FCCC /* WMWifiAnimatorTool.m */,
+				54B762171D83EEE100E2FCCC /* WMPresentationController.h */,
+				54B762181D83EEE100E2FCCC /* WMPresentationController.m */,
+			);
+			path = "Pop(弹出VC及动画)";
 			sourceTree = "<group>";
 		};
 		8215319D919A0607D843C5BA /* Frameworks */ = {
@@ -940,8 +1034,14 @@
 				546489D81D75BE870053731B /* Forum.storyboard in Resources */,
 				546EDFA91D784893001CE4EE /* WMLoginView.xib in Resources */,
 				5464898E1D75A9720053731B /* LaunchScreen.storyboard in Resources */,
+				54B762231D84660300E2FCCC /* WMAddSmsViewController.xib in Resources */,
+				54B7621E1D842EA000E2FCCC /* WMAddPskViewController.xib in Resources */,
+				54EF6DE31D85035300236233 /* WMApManageCell.xib in Resources */,
 				548D7E481D75C680005ABD57 /* WMDeviceCell.xib in Resources */,
+				54B762281D84661800E2FCCC /* WMAddWechatViewController.xib in Resources */,
+				54B7622D1D84663100E2FCCC /* WMAddQrcodeViewController.xib in Resources */,
 				5464898B1D75A9720053731B /* Assets.xcassets in Resources */,
+				543B3B061D80604B0032B506 /* WMNetworkCell.xib in Resources */,
 				546489891D75A9720053731B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1094,20 +1194,30 @@
 				548D7EFE1D7737FB005ABD57 /* CMNetworkManager.m in Sources */,
 				548D7E7A1D75CE41005ABD57 /* WMApManageViewController.m in Sources */,
 				546489C51D75BC7C0053731B /* WMTabBarViewController.m in Sources */,
+				54B7622C1D84663100E2FCCC /* WMAddQrcodeViewController.m in Sources */,
 				548D7E8C1D75CEC7005ABD57 /* WMWechatViewController.m in Sources */,
 				546489801D75A9720053731B /* main.m in Sources */,
 				548D7EFC1D7737FB005ABD57 /* CMCookiesHandler.m in Sources */,
+				54B762151D83EE3500E2FCCC /* WMPlusPopViewController.m in Sources */,
 				546EDFAD1D7848A4001CE4EE /* WMUserAccout.m in Sources */,
 				548D7E831D75CE8C005ABD57 /* WMSearchViewController.m in Sources */,
+				54B762091D83D5B100E2FCCC /* SVProgressHUD+WMExtension.m in Sources */,
+				54B7621D1D842EA000E2FCCC /* WMAddPskViewController.m in Sources */,
 				548D7E4C1D75C81D005ABD57 /* UIView+CMFrame.m in Sources */,
 				546489E61D75C4D90053731B /* WMDeviceIcon.m in Sources */,
 				548D7E7D1D75CE62005ABD57 /* WMWifiViewController.m in Sources */,
+				54B762161D83EE3500E2FCCC /* WMWifiAnimatorTool.m in Sources */,
 				548D7E8F1D75CEDF005ABD57 /* WMSmsViewController.m in Sources */,
 				548D7E801D75CE75005ABD57 /* WMAuthViewController.m in Sources */,
+				54B762191D83EEE100E2FCCC /* WMPresentationController.m in Sources */,
+				543B3B0A1D8398120032B506 /* WMNetworkViewModel.m in Sources */,
 				546EDFAA1D784893001CE4EE /* WMTextField.m in Sources */,
 				548D7E771D75CE21005ABD57 /* WMWifiStateViewController.m in Sources */,
+				543B3B051D80604B0032B506 /* WMNetworkCell.m in Sources */,
+				5477E2021D7C01B900BEC3EB /* WMNetwork.m in Sources */,
 				548D7E951D75D0B7005ABD57 /* UIBarButtonItem+CMExtension.m in Sources */,
 				548D7E891D75CEB3005ABD57 /* WMAdViewController.m in Sources */,
+				54EF6DE21D85035300236233 /* WMApManageCell.m in Sources */,
 				548D7E861D75CEA3005ABD57 /* WMCustomViewController.m in Sources */,
 				548D7E921D75CF62005ABD57 /* WMNavigationController.m in Sources */,
 				546489E11D75C11D0053731B /* WMConstantVA.m in Sources */,
@@ -1116,6 +1226,8 @@
 				546489DE1D75BF000053731B /* WMDeviceViewController.m in Sources */,
 				546489C61D75BC7C0053731B /* AppDelegate.m in Sources */,
 				548D7E471D75C680005ABD57 /* WMDeviceCell.m in Sources */,
+				54B762271D84661800E2FCCC /* WMAddWechatViewController.m in Sources */,
+				54B762221D84660300E2FCCC /* WMAddSmsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1282,12 +1394,15 @@
 			baseConfigurationReference = B102727B661BE29444DF8027 /* Pods-WifiManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Classes/Other/WifiManager.pch";
 				INFOPLIST_FILE = WifiManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = firstAPP.WifiManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chmn123.wifiManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -1296,12 +1411,15 @@
 			baseConfigurationReference = 043E1FC394B801015D37AF7A /* Pods-WifiManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Classes/Other/WifiManager.pch";
 				INFOPLIST_FILE = WifiManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = firstAPP.WifiManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chmn123.wifiManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

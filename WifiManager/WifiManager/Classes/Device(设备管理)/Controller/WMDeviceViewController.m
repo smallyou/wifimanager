@@ -211,19 +211,39 @@ static NSString * const reuseIdentifier = @"Cell";
 - (IBAction)logoutBtnClick:(UIBarButtonItem *)sender {
     
     sender.enabled = NO;
-   
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"是否注销" message:nil preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        sender.enabled = YES;
+    }];
+    UIAlertAction *confirm = [UIAlertAction actionWithTitle:@"注销" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        [self logout:sender];
+    }];
+    [alert addAction:cancel];
+    [alert addAction:confirm];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+}
+
+
+/**注销*/
+-(void)logout:(UIBarButtonItem *)sender
+{
     //1 获取server
     NSString *server = [WMUserAccoutViewModel shareInstance].userAccout.server;
     
     //2 发起注销请求
     [CMNetworkManager logoutRequest:server competation:^(BOOL isSuccess) {
         if (isSuccess) {
-            [SVProgressHUD showSuccessWithStatus:@"注销成功"];
+            [SVProgressHUD successWithString:@"注销成功"];
             [WMUserAccoutViewModel shareInstance].logout = YES; //标记主动注销
+            [WMUserAccoutViewModel shareInstance].userAccout.timeout_time = 0; //手动设置超时时间，注销后，下次打开需要再次登录
+            [[WMUserAccoutViewModel shareInstance] savedUserAccoutToSandBox];
             [UIApplication sharedApplication].keyWindow.rootViewController = [UIStoryboard storyboardWithName:@"Main" bundle:nil].instantiateInitialViewController;
         }
         else{
-            [SVProgressHUD showSuccessWithStatus:@"操作失败，请重试"];
+            [SVProgressHUD errorWithString:@"操作失败，请重试"];
             sender.enabled = YES;
         }
     }];

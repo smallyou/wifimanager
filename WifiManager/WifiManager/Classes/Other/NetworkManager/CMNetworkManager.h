@@ -8,6 +8,30 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger,CMRequestType){
+    
+    CMRequestTypePost = 0, //POST请求
+    CMRequestTypeGet = 1 //GET请求
+    
+} ;
+
+typedef NS_ENUM(NSInteger,CMErrorCode){
+    
+    CMErrorCodeLoginFailed = -1 , //登录失败
+    CMErrorCodeLoginSuccessed = 0 , //登录成功
+    CMErrorCodeLoginException = 1  //登录异常，可能是用户名密码错误
+    
+};
+
+typedef NS_ENUM(NSInteger,WMNetworkOperation){
+    WMNetworkOperationEnable = 0, //启用
+    WMNetworkOperationDisable = 1 , //禁用
+    WMNetworkOperationDelete = 2 //删除
+};
+
+
+
+
 @interface CMNetworkManager : NSObject
 
 /**
@@ -46,5 +70,26 @@
  *  @param competation 完成后调用的block
  */
 +(void)requestForCustomer:(NSString *)server competation:(void(^)(NSString *customer,NSError *error))competation;
+
+
+/**
+ *  获取无线网络数据
+ *
+ *  @param server      服务器地址
+ *  @param competation 请求回调的block
+ *  @param data        返回的结果解析成字典数组
+ */
++(void)requestforNetwork:(NSString *)server start:(NSInteger)start limit:(NSInteger)limit competation:(void(^)(NSArray<NSDictionary *> *data , NSError *error))competation;
+
+/**
+ *  对无线网络进行删除、禁用、启用操作
+ *
+ *  @param server      服务器地址
+ *  @param opr         操作类型
+ *  @param ids         待操作WiFi的id 数组
+ *  @param competation 完成后的回调
+ */
++(void)operationForNetwork:(NSString *)server opr:(WMNetworkOperation)opr ids:(NSArray *)ids competation:(void(^)(BOOL success))competation;
+
 
 @end
