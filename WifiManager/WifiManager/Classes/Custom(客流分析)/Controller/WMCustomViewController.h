@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WMCustomViewController : UITableViewController
+@interface WMCustomViewController : UICollectionViewController
 
 @end

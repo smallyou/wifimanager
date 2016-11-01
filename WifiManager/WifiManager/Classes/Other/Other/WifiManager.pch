@@ -1,0 +1,49 @@
+//
+//  WifiManager.pch
+//  WifiManager
+//
+//  Created by 陈华 on 16/8/30.
+//  Copyright © 2016年 陈华. All rights reserved.
+//
+
+#import "WMConstantVA.h"
+#import "UIView+CMFrame.h"
+#import "UIBarButtonItem+CMExtension.h"
+#import "SVProgressHUD+WMExtension.h"
+
+#ifdef DEBUG
+
+#define WMLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+
+#endif
+
+
+#define WMColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
+#define WMScreenWidth [UIScreen mainScreen].bounds.size.width
+#define WMScreenHeight [UIScreen mainScreen].bounds.size.height
+
+/**网络请求类型-加载最新或者加载更多*/
+typedef NS_ENUM(NSInteger,WMNetworkType){
+    WMNetworkTypeNew = 0,
+    WMNetworkTypeMore = 1
+};
+
+
+#pragma mark - color
+
+#define WMGreenColor [UIColor colorWithRed: 96/255.0 green: 174/255.0 blue: 37/255.0 alpha:1]
+#define WMRedColor   [UIColor colorWithRed: 225/255.0 green: 73/255.0 blue: 73/255.0 alpha:1]
+#define WMBlueColor  [UIColor colorWithRed: 74/255.0 green: 139/255.0 blue: 215/255.0 alpha:1]
+#define WMOrangeColor   [UIColor colorWithRed: 250/255.0 green: 138/255.0 blue: 3/255.0 alpha:1]
+#define WMLightBlueColor   [UIColor colorWithRed: 108/255.0 green: 181/255.0 blue: 181/255.0 alpha:1]
+#define WMPurpleColor   [UIColor colorWithRed: 199/255.0 green: 106/255.0 blue: 205/255.0 alpha:1]
+
+
+
+
+
+

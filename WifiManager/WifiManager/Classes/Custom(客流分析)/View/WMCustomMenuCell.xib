@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WMCustomMenuCell">
+            <rect key="frame" x="0.0" y="0.0" width="131" height="106"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="131" height="106"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M6o-oE-Mox">
+                        <rect key="frame" x="41" y="10" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Si4-Ki-Ocu"/>
+                            <constraint firstAttribute="height" constant="50" id="a7J-jL-49x"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="终端类型" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHs-9T-qdF">
+                        <rect key="frame" x="40" y="70" width="52" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="M6o-oE-Mox" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="9fn-ms-yOj"/>
+                <constraint firstItem="eHs-9T-qdF" firstAttribute="centerX" secondItem="M6o-oE-Mox" secondAttribute="centerX" id="OPO-3d-Vjl"/>
+                <constraint firstItem="eHs-9T-qdF" firstAttribute="top" secondItem="M6o-oE-Mox" secondAttribute="bottom" constant="10" id="RTD-Js-icf"/>
+                <constraint firstItem="M6o-oE-Mox" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="Sv6-G4-TVm"/>
+            </constraints>
+            <size key="customSize" width="131" height="106"/>
+            <connections>
+                <outlet property="iconImageView" destination="M6o-oE-Mox" id="PcF-bx-b4l"/>
+                <outlet property="titleLabel" destination="eHs-9T-qdF" id="iT6-or-gI6"/>
+            </connections>
+            <point key="canvasLocation" x="169.5" y="190"/>
+        </collectionViewCell>
+    </objects>
+</document>

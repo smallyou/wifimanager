@@ -28,6 +28,24 @@
     return [[UIBarButtonItem alloc]initWithCustomView:contentView];
 }
 
+/**快速创建barButtonItem--文字类型*/
++(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action title:(NSString *)title selectedTitle:(NSString *)selectedTitle
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setTitle:title forState:UIControlStateNormal];
+    [button setTitle:selectedTitle forState:UIControlStateSelected];
+    [button sizeToFit];
+    [button setTitleColor:WMColor(97, 97, 97) forState:UIControlStateNormal];
+    [button setTitleColor:WMColor(86, 171, 228) forState:UIControlStateSelected];
+    [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    button.titleLabel.font = [UIFont systemFontOfSize:15.0];
+    UIView *contentView = [[UIView alloc]init];
+    contentView.frame = button.bounds;
+    [contentView addSubview:button];
+    return [[UIBarButtonItem alloc]initWithCustomView:contentView];
+}
+
+
 /**快速创建返回按钮*/
 +(UIBarButtonItem *)backWithTarget:(id)target action:(SEL)action image:(UIImage *)image highImage:(UIImage *)highImage title:(NSString *)title
 {

@@ -7,92 +7,102 @@
 //
 
 #import "WMCustomViewController.h"
+#import "WMCustomMenuCell.h"
+#import "WMCustomMenuModel.h"
+#import "WMCustomChartVC.h"
 
 @interface WMCustomViewController ()
+
+@property(nonatomic,strong) NSArray *array;
 
 @end
 
 @implementation WMCustomViewController
 
+static NSString * const ID = @"cell";
+static NSInteger const count = 3;
+
+-(instancetype)init
+{
+    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
+    layout.itemSize = CGSizeMake((WMScreenWidth - (count + 1) * margin) / count , (WMScreenWidth - (count + 1) * margin) / count);
+    
+    layout.minimumInteritemSpacing = 0;
+    layout.minimumLineSpacing = 10;
+    
+    if (self = [super initWithCollectionViewLayout:layout]) {
+        
+    }
+    return self;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    //设置UI
+    [self setupUI];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //设置数据
+    self.array = [WMCustomMenuModel customMenu];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
-}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+/**设置UI*/
+-(void)setupUI
+{
+    //设置导航栏
+    self.title = @"客流分析";
     
-    // Configure the cell...
+    //注册cell
+    [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([WMCustomMenuCell class]) bundle:nil] forCellWithReuseIdentifier:ID];
     
+    //设置其他
+    //设置其他属性
+    self.collectionView.backgroundColor = WMColor(86, 171, 228);
+    self.collectionView.contentInset = UIEdgeInsetsMake(margin, margin, 0, margin);
+}
+
+
+
+#pragma mark - UITableViewDataSource
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return self.array.count;
+}
+
+-(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    WMCustomMenuCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ID forIndexPath:indexPath];
+    
+    
+    cell.customMenu = self.array[indexPath.row];
+         
     return cell;
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+
+#pragma mark - UICollectionViewDelegate
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    //获取当前选中的cell
+    WMCustomMenuCell *cell = (WMCustomMenuCell *)[self.collectionView cellForItemAtIndexPath:indexPath];
+    
+    //设置cell的动画
+    [cell setAnimation];
+    
+    //动画完成后调用的block
+    __weak  WMCustomViewController *wSelf = self;
+    cell.animationCompetationBlock = ^(WMCustomMenuCell *mycell)
+    {
+       //打开控制器
+        WMCustomChartVC *vc = [[WMCustomChartVC alloc]init];
+        vc.customMenu = mycell.customMenu;
+        [wSelf presentViewController:vc animated:YES completion:nil];
+        
+    };
 }
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

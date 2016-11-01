@@ -196,7 +196,6 @@ typedef NS_ENUM(NSInteger,CMLoginStatus) {
         }
         else{
             //登录失败
-            WMLog(@"登录失败...");
             
             
             //取消提示，各控件可用

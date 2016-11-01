@@ -7,8 +7,16 @@
 //
 
 #import "WMSmsViewController.h"
+#import "CMNetworkManager.h"
+#import "WMUserAccoutViewModel.h"
 
 @interface WMSmsViewController ()
+
+@property (weak, nonatomic) IBOutlet UIView *contentView;
+@property (weak, nonatomic) IBOutlet UITextField *addressTF;
+@property (weak, nonatomic) IBOutlet UITextField *remarkTF;
+@property (weak, nonatomic) IBOutlet UIButton *commitButton;
+
 
 @end
 
@@ -17,82 +25,63 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+   
+    //设置UI
+    [self setupUI];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
-}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+#pragma mark - 设置UI
+-(void)setupUI
+{
+    self.title = @"全局排除";
     
-    // Configure the cell...
+    [self.addressTF addTarget:self action:@selector(textChanged:) forControlEvents:UIControlEventEditingChanged];
+}
+
+
+#pragma mark - 业务
+
+-(void)textChanged:(UITextField *)tf
+{
+    if (self.addressTF.hasText) {
+        self.commitButton.enabled = YES;
+    }
+    else{
+        self.commitButton.enabled = NO;
+    }
+}
+
+- (IBAction)commitBtnClick:(UIButton *)sender {
     
-    return cell;
+    
+    if (!self.addressTF.text.length) {
+        [SVProgressHUD infoWithString:@"地址不能为空"];
+    }
+    
+    NSString *desc = @"";
+    if (self.remarkTF.text.length) {
+        desc = self.remarkTF.text;
+    }
+    NSString *address = self.addressTF.text;
+    
+    
+    NSString *server = [WMUserAccoutViewModel shareInstance].userAccout.server;
+    [CMNetworkManager requestForAddGlobalExIP:server descirption:desc iplist:address competation:^(BOOL success,NSString *info) {
+       
+        if (info.length) {
+            [SVProgressHUD errorWithString:info];
+        }else{
+            [SVProgressHUD successWithString:@"添加成功"];
+        }
+        
+    }];
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
 }
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WMApInfoViewModel.h"
 
 @interface WMApManageCell : UITableViewCell
+
+/**提供属性供外界传值*/
+@property(nonatomic,strong) WMApInfoViewModel *viewModel;
 
 @end

@@ -5,35 +5,6 @@
     </dependencies>
     <scenes>
         <!--技术论坛-->
-        <scene sceneID="wuW-VE-FxV">
-            <objects>
-                <tableViewController id="sNN-wp-mHi" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Jmo-12-B0a">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="GUm-GW-A9A">
-                                <rect key="frame" x="0.0" y="92" width="400" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GUm-GW-A9A" id="TeW-oO-bfo">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="sNN-wp-mHi" id="RWX-7r-i6C"/>
-                            <outlet property="delegate" destination="sNN-wp-mHi" id="KLq-Y7-V73"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="技术论坛" id="tyX-90-4Ul"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HJn-Aa-Unt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="174" y="-20"/>
-        </scene>
-        <!--技术论坛-->
         <scene sceneID="GUP-s3-K8k">
             <objects>
                 <navigationController id="jUq-b2-HBf" sceneMemberID="viewController">
@@ -45,12 +16,54 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="sNN-wp-mHi" kind="relationship" relationship="rootViewController" id="s9K-f1-iTX"/>
+                        <segue destination="BZ8-iS-X5y" kind="relationship" relationship="rootViewController" id="rY6-WY-ZAN"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="peA-rf-yko" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-756" y="-20"/>
+        </scene>
+        <!--技术论坛-->
+        <scene sceneID="pRq-tU-hPv">
+            <objects>
+                <viewController id="BZ8-iS-X5y" customClass="WMForumViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ffZ-UG-WNr"/>
+                        <viewControllerLayoutGuide type="bottom" id="Eto-no-YnZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hs4-9l-OiL">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="gDE-va-HKc">
+                                <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gDE-va-HKc" firstAttribute="leading" secondItem="hs4-9l-OiL" secondAttribute="leading" id="WFD-sv-w1e"/>
+                            <constraint firstAttribute="bottom" secondItem="gDE-va-HKc" secondAttribute="bottom" id="WQ1-ou-YOu"/>
+                            <constraint firstAttribute="trailing" secondItem="gDE-va-HKc" secondAttribute="trailing" id="aJR-7Y-sds"/>
+                            <constraint firstItem="gDE-va-HKc" firstAttribute="top" secondItem="ffZ-UG-WNr" secondAttribute="bottom" id="b6S-uX-hIE"/>
+                            <constraint firstItem="Eto-no-YnZ" firstAttribute="top" secondItem="gDE-va-HKc" secondAttribute="bottom" id="sqE-u7-x5l"/>
+                            <constraint firstItem="gDE-va-HKc" firstAttribute="top" secondItem="hs4-9l-OiL" secondAttribute="top" id="xfJ-zf-B2c"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="b6S-uX-hIE"/>
+                                <exclude reference="sqE-u7-x5l"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="技术论坛" id="WYs-UO-qo6"/>
+                    <connections>
+                        <outlet property="webView" destination="gDE-va-HKc" id="n9S-ue-y8k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ysa-ip-B2U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-199" y="-20"/>
         </scene>
     </scenes>
     <resources>

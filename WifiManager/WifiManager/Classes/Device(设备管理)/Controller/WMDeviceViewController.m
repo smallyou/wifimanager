@@ -139,7 +139,7 @@ static NSString * const reuseIdentifier = @"Cell";
     WMUserAccout *userAccout = [WMUserAccoutViewModel shareInstance].userAccout;
     
     //2 判断当前客户名称是否为空
-    if (userAccout.customer) {
+    if (userAccout.customer&&userAccout.customer.length) {
         self.customerLabel.text = [NSString stringWithFormat:@"授权用户:%@",userAccout.customer];
         return ;
     }
@@ -150,6 +150,9 @@ static NSString * const reuseIdentifier = @"Cell";
             return ;
         }
         //3.1 设置
+        if (customer.length == 0) {
+            customer = @"当前用户未授权";
+        }
         self.customerLabel.text = [NSString stringWithFormat:@"授权用户:%@",customer];
         //3.2 保存
         [WMUserAccoutViewModel shareInstance].userAccout.customer = customer;

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WMSmsViewController : UITableViewController
+@interface WMSmsViewController : UIViewController
 
 @end

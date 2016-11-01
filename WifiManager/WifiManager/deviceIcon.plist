@@ -64,7 +64,7 @@
 		<key>icon</key>
 		<string>device_wechat</string>
 		<key>name</key>
-		<string>微信访客</string>
+		<string>黑名单</string>
 	</dict>
 	<dict>
 		<key>controller</key>
@@ -72,7 +72,7 @@
 		<key>icon</key>
 		<string>device_sms</string>
 		<key>name</key>
-		<string>短信访客</string>
+		<string>临时直通</string>
 	</dict>
 </array>
 </plist>

@@ -17,6 +17,8 @@
         
         //1 设置请求头
         [self.requestSerializer setValue:@"XMLHttpRequest" forHTTPHeaderField:@"X-Requested-With"];
+
+       
         
         //2 设置Cookies
         [CMCookiesHandler cookiesSetForRequest];

@@ -33,4 +33,17 @@
  */
 +(UIBarButtonItem *)backWithTarget:(id)target action:(SEL)action image:(UIImage *)image highImage:(UIImage *)highImage title:(NSString *)title;
 
+
+/**
+ *  快速创建barButtonItem--文字类型
+ *
+ *  @param target        响应对象
+ *  @param action        响应事件
+ *  @param title         正常状态下的文字
+ *  @param selectedTitle 选中状态下的文字
+ *
+ *  @return 按钮
+ */
++(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action title:(NSString *)title selectedTitle:(NSString *)selectedTitle;
+
 @end

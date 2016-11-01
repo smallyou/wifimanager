@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" id="KGk-i7-Jjw" customClass="WMAdPopCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chose" translatesAutoresizingMaskIntoConstraints="NO" id="BcC-F2-Hog">
+                        <rect key="frame" x="294" y="14" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="0xE-YH-mgw"/>
+                            <constraint firstAttribute="width" constant="16" id="qVe-Je-AF4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最近5分钟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meV-f1-Ho2">
+                        <rect key="frame" x="10" y="12" width="69.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="highlightedColor" red="0.33725490196078434" green="0.6705882352941176" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BcC-F2-Hog" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="2au-21-msy"/>
+                    <constraint firstItem="meV-f1-Ho2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="INb-dQ-HVR"/>
+                    <constraint firstAttribute="trailing" secondItem="BcC-F2-Hog" secondAttribute="trailing" constant="10" id="s97-Jt-8ry"/>
+                    <constraint firstItem="meV-f1-Ho2" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="sDP-U5-8pa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="choseImageView" destination="BcC-F2-Hog" id="HH9-TI-TqA"/>
+                <outlet property="titleLabel" destination="meV-f1-Ho2" id="TrP-Pi-etl"/>
+            </connections>
+            <point key="canvasLocation" x="276" y="206"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chose" width="16" height="16"/>
+    </resources>
+</document>

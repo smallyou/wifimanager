@@ -14,5 +14,6 @@
 +(void)successWithString:(NSString *)status;
 /**失败状态*/
 +(void)errorWithString:(NSString *)status;
-
+/**提示信息*/
++(void)infoWithString:(NSString *)status;
 @end

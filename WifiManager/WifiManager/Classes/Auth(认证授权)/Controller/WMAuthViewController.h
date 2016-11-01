@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WMAuthViewController : UITableViewController
+@interface WMAuthViewController : UIViewController
 
 @end

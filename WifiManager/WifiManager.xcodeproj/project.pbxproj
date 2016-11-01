@@ -8,9 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		3BC29C18697A8CAF951A29E4 /* libPods-WifiManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AC0A0C505DAA9F087B6B54 /* libPods-WifiManagerUITests.a */; };
+		5413B1301DB5A68300112BB7 /* WMFlowTrendBarChartCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5413B12F1DB5A68300112BB7 /* WMFlowTrendBarChartCellItem.m */; settings = {ASSET_TAGS = (); }; };
+		5413B1361DB5B7EE00112BB7 /* WMBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5413B1351DB5B7EE00112BB7 /* WMBarChart.m */; settings = {ASSET_TAGS = (); }; };
+		5413B13A1DB5F09300112BB7 /* WMBlackListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5413B1381DB5F09300112BB7 /* WMBlackListCell.m */; settings = {ASSET_TAGS = (); }; };
+		5413B13B1DB5F09300112BB7 /* WMBlackListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5413B1391DB5F09300112BB7 /* WMBlackListCell.xib */; settings = {ASSET_TAGS = (); }; };
+		5413B13E1DB5FC5200112BB7 /* WMBlackListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5413B13D1DB5FC5200112BB7 /* WMBlackListModel.m */; settings = {ASSET_TAGS = (); }; };
+		541A77661DB610B5008564F7 /* WMAddBlackListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541A77641DB610B5008564F7 /* WMAddBlackListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		541A77671DB610B5008564F7 /* WMAddBlackListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 541A77651DB610B5008564F7 /* WMAddBlackListViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		541A77691DB653AE008564F7 /* WMSmsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 541A77681DB653AE008564F7 /* WMSmsViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		541A776C1DB66F3D008564F7 /* WMForumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541A776B1DB66F3D008564F7 /* WMForumViewController.m */; settings = {ASSET_TAGS = (); }; };
+		541A77721DB6FD88008564F7 /* WMApDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 541A77711DB6FD88008564F7 /* WMApDataTool.m */; settings = {ASSET_TAGS = (); }; };
+		541A77751DB72BDB008564F7 /* WMNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 541A77741DB72BDB008564F7 /* WMNetworkTool.m */; settings = {ASSET_TAGS = (); }; };
+		5420B2511DAA366A00673963 /* WMChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5420B2501DAA366A00673963 /* WMChartModel.m */; settings = {ASSET_TAGS = (); }; };
+		5420B2541DAA382500673963 /* WMLineData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5420B2531DAA382500673963 /* WMLineData.m */; settings = {ASSET_TAGS = (); }; };
+		5420B2571DAA3C0F00673963 /* WMLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5420B2561DAA3C0F00673963 /* WMLineChart.m */; settings = {ASSET_TAGS = (); }; };
 		543B3B051D80604B0032B506 /* WMNetworkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 543B3B031D80604B0032B506 /* WMNetworkCell.m */; settings = {ASSET_TAGS = (); }; };
 		543B3B061D80604B0032B506 /* WMNetworkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 543B3B041D80604B0032B506 /* WMNetworkCell.xib */; settings = {ASSET_TAGS = (); }; };
 		543B3B0A1D8398120032B506 /* WMNetworkViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 543B3B091D8398120032B506 /* WMNetworkViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		545CE7651DA5E71A00A4FE8D /* WMDetailsLocalAccoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 545CE7631DA5E71A00A4FE8D /* WMDetailsLocalAccoutCell.m */; settings = {ASSET_TAGS = (); }; };
+		545CE7661DA5E71A00A4FE8D /* WMDetailsLocalAccoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 545CE7641DA5E71A00A4FE8D /* WMDetailsLocalAccoutCell.xib */; settings = {ASSET_TAGS = (); }; };
+		545CE7691DA5EBCA00A4FE8D /* WMDetailsOperationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 545CE7681DA5EBCA00A4FE8D /* WMDetailsOperationButton.m */; settings = {ASSET_TAGS = (); }; };
+		545CE76C1DA64AB600A4FE8D /* WMGuestAccoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 545CE76B1DA64AB600A4FE8D /* WMGuestAccoutModel.m */; settings = {ASSET_TAGS = (); }; };
+		545CE7701DA653F000A4FE8D /* WMTempoGuestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 545CE76E1DA653F000A4FE8D /* WMTempoGuestCell.m */; settings = {ASSET_TAGS = (); }; };
+		545CE7711DA653F000A4FE8D /* WMTempoGuestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 545CE76F1DA653F000A4FE8D /* WMTempoGuestCell.xib */; settings = {ASSET_TAGS = (); }; };
+		545CE7751DA7219000A4FE8D /* WMAddTempoVistorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 545CE7731DA7219000A4FE8D /* WMAddTempoVistorVC.m */; settings = {ASSET_TAGS = (); }; };
+		545CE7761DA7219000A4FE8D /* WMAddTempoVistorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 545CE7741DA7219000A4FE8D /* WMAddTempoVistorVC.xib */; settings = {ASSET_TAGS = (); }; };
+		545CE7EC1DA77CF900A4FE8D /* WMCustomMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 545CE7EA1DA77CF900A4FE8D /* WMCustomMenuCell.m */; settings = {ASSET_TAGS = (); }; };
+		545CE7ED1DA77CF900A4FE8D /* WMCustomMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 545CE7EB1DA77CF900A4FE8D /* WMCustomMenuCell.xib */; settings = {ASSET_TAGS = (); }; };
+		545CE7F01DA781DB00A4FE8D /* WMCustomMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 545CE7EF1DA781DB00A4FE8D /* WMCustomMenuModel.m */; settings = {ASSET_TAGS = (); }; };
+		545CE7F21DA7823900A4FE8D /* customMenus.plist in Resources */ = {isa = PBXBuildFile; fileRef = 545CE7F11DA7823900A4FE8D /* customMenus.plist */; settings = {ASSET_TAGS = (); }; };
+		545CE7F61DA79B3200A4FE8D /* WMCustomChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 545CE7F41DA79B3200A4FE8D /* WMCustomChartVC.m */; settings = {ASSET_TAGS = (); }; };
+		545CE7F71DA79B3200A4FE8D /* WMCustomChartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 545CE7F51DA79B3200A4FE8D /* WMCustomChartVC.xib */; settings = {ASSET_TAGS = (); }; };
+		545CEA8C1DABE37C007B9EDD /* WMPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 545CEA8B1DABE37C007B9EDD /* WMPieChart.m */; settings = {ASSET_TAGS = (); }; };
+		545CEA8F1DABE464007B9EDD /* WMPieData.m in Sources */ = {isa = PBXBuildFile; fileRef = 545CEA8E1DABE464007B9EDD /* WMPieData.m */; settings = {ASSET_TAGS = (); }; };
 		546489801D75A9720053731B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5464897F1D75A9720053731B /* main.m */; };
 		546489891D75A9720053731B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546489871D75A9720053731B /* Main.storyboard */; };
 		5464898B1D75A9720053731B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5464898A1D75A9720053731B /* Assets.xcassets */; };
@@ -18,12 +48,10 @@
 		546489991D75A9720053731B /* WifiManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489981D75A9720053731B /* WifiManagerTests.m */; };
 		546489A41D75A9720053731B /* WifiManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489A31D75A9720053731B /* WifiManagerUITests.m */; };
 		546489C51D75BC7C0053731B /* WMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489BE1D75BC7C0053731B /* WMTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
-		546489C61D75BC7C0053731B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489C31D75BC7C0053731B /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		546489D51D75BE770053731B /* Device.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546489D31D75BE770053731B /* Device.storyboard */; settings = {ASSET_TAGS = (); }; };
 		546489D81D75BE870053731B /* Forum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546489D61D75BE870053731B /* Forum.storyboard */; settings = {ASSET_TAGS = (); }; };
 		546489DB1D75BE980053731B /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546489D91D75BE980053731B /* Profile.storyboard */; settings = {ASSET_TAGS = (); }; };
 		546489DE1D75BF000053731B /* WMDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489DD1D75BF000053731B /* WMDeviceViewController.m */; settings = {ASSET_TAGS = (); }; };
-		546489E11D75C11D0053731B /* WMConstantVA.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489E01D75C11D0053731B /* WMConstantVA.m */; settings = {ASSET_TAGS = (); }; };
 		546489E31D75C32F0053731B /* deviceIcon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 546489E21D75C32F0053731B /* deviceIcon.plist */; settings = {ASSET_TAGS = (); }; };
 		546489E61D75C4D90053731B /* WMDeviceIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 546489E51D75C4D90053731B /* WMDeviceIcon.m */; settings = {ASSET_TAGS = (); }; };
 		546EDFA81D784893001CE4EE /* WMLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EDFA41D784893001CE4EE /* WMLoginView.m */; settings = {ASSET_TAGS = (); }; };
@@ -31,7 +59,13 @@
 		546EDFAA1D784893001CE4EE /* WMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EDFA71D784893001CE4EE /* WMTextField.m */; settings = {ASSET_TAGS = (); }; };
 		546EDFAD1D7848A4001CE4EE /* WMUserAccout.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EDFAC1D7848A4001CE4EE /* WMUserAccout.m */; settings = {ASSET_TAGS = (); }; };
 		546EDFB01D784CCA001CE4EE /* WMUserAccoutViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EDFAF1D784CCA001CE4EE /* WMUserAccoutViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		547523091D99594E00991B98 /* WMLocalAccoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 547523081D99594E00991B98 /* WMLocalAccoutVC.m */; settings = {ASSET_TAGS = (); }; };
+		5475230C1D99596600991B98 /* WMTempoVistorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475230B1D99596600991B98 /* WMTempoVistorVC.m */; settings = {ASSET_TAGS = (); }; };
+		5475230F1D9969D900991B98 /* WMGroupAccoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475230E1D9969D900991B98 /* WMGroupAccoutModel.m */; settings = {ASSET_TAGS = (); }; };
+		547523121D99790000991B98 /* WMDetailsLocalAccoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 547523111D99790000991B98 /* WMDetailsLocalAccoutVC.m */; settings = {ASSET_TAGS = (); }; };
 		5477E2021D7C01B900BEC3EB /* WMNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5477E2011D7C01B900BEC3EB /* WMNetwork.m */; settings = {ASSET_TAGS = (); }; };
+		5485E90B1D8D518B005E5168 /* WMChannelRateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5485E9091D8D518B005E5168 /* WMChannelRateController.m */; settings = {ASSET_TAGS = (); }; };
+		5485E90C1D8D518B005E5168 /* WMChannelRateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5485E90A1D8D518B005E5168 /* WMChannelRateController.xib */; settings = {ASSET_TAGS = (); }; };
 		548D7E471D75C680005ABD57 /* WMDeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E451D75C680005ABD57 /* WMDeviceCell.m */; settings = {ASSET_TAGS = (); }; };
 		548D7E481D75C680005ABD57 /* WMDeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548D7E461D75C680005ABD57 /* WMDeviceCell.xib */; settings = {ASSET_TAGS = (); }; };
 		548D7E4C1D75C81D005ABD57 /* UIView+CMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E4B1D75C81D005ABD57 /* UIView+CMFrame.m */; settings = {ASSET_TAGS = (); }; };
@@ -41,7 +75,6 @@
 		548D7E801D75CE75005ABD57 /* WMAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E7F1D75CE75005ABD57 /* WMAuthViewController.m */; settings = {ASSET_TAGS = (); }; };
 		548D7E831D75CE8C005ABD57 /* WMSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E821D75CE8C005ABD57 /* WMSearchViewController.m */; settings = {ASSET_TAGS = (); }; };
 		548D7E861D75CEA3005ABD57 /* WMCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E851D75CEA3005ABD57 /* WMCustomViewController.m */; settings = {ASSET_TAGS = (); }; };
-		548D7E891D75CEB3005ABD57 /* WMAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E881D75CEB3005ABD57 /* WMAdViewController.m */; settings = {ASSET_TAGS = (); }; };
 		548D7E8C1D75CEC7005ABD57 /* WMWechatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E8B1D75CEC7005ABD57 /* WMWechatViewController.m */; settings = {ASSET_TAGS = (); }; };
 		548D7E8F1D75CEDF005ABD57 /* WMSmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E8E1D75CEDF005ABD57 /* WMSmsViewController.m */; settings = {ASSET_TAGS = (); }; };
 		548D7E921D75CF62005ABD57 /* WMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7E911D75CF62005ABD57 /* WMNavigationController.m */; settings = {ASSET_TAGS = (); }; };
@@ -49,6 +82,40 @@
 		548D7EFC1D7737FB005ABD57 /* CMCookiesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7EF71D7737FB005ABD57 /* CMCookiesHandler.m */; settings = {ASSET_TAGS = (); }; };
 		548D7EFD1D7737FB005ABD57 /* CMHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7EF91D7737FB005ABD57 /* CMHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
 		548D7EFE1D7737FB005ABD57 /* CMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D7EFB1D7737FB005ABD57 /* CMNetworkManager.m */; settings = {ASSET_TAGS = (); }; };
+		54979A071DAD371E007EA99F /* WMPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A061DAD371E007EA99F /* WMPieChartView.m */; settings = {ASSET_TAGS = (); }; };
+		54979A0E1DAFAD39007EA99F /* WMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A0D1DAFAD39007EA99F /* WMBaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54979A111DAFB04F007EA99F /* WMCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A101DAFB04F007EA99F /* WMCellItem.m */; settings = {ASSET_TAGS = (); }; };
+		54979A141DAFB3EC007EA99F /* WMProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A131DAFB3EC007EA99F /* WMProfileCell.m */; settings = {ASSET_TAGS = (); }; };
+		54979A171DAFB617007EA99F /* WMProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A161DAFB617007EA99F /* WMProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54979A1C1DAFB892007EA99F /* WMAccessoryCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A1B1DAFB892007EA99F /* WMAccessoryCellItem.m */; settings = {ASSET_TAGS = (); }; };
+		54979A1F1DAFBA54007EA99F /* WMButtomCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A1E1DAFBA54007EA99F /* WMButtomCellItem.m */; settings = {ASSET_TAGS = (); }; };
+		54979A221DAFBBB2007EA99F /* WMGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A211DAFBBB2007EA99F /* WMGroupItem.m */; settings = {ASSET_TAGS = (); }; };
+		54979A2B1DAFD9B5007EA99F /* WMConstantVA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A261DAFD9B5007EA99F /* WMConstantVA.m */; settings = {ASSET_TAGS = (); }; };
+		54979A2C1DAFD9B5007EA99F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A291DAFD9B5007EA99F /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		54979A301DAFDA23007EA99F /* CMFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A2F1DAFDA23007EA99F /* CMFileTool.m */; settings = {ASSET_TAGS = (); }; };
+		54979A331DAFE755007EA99F /* WMAlertEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A321DAFE755007EA99F /* WMAlertEventViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54979A391DAFF1EC007EA99F /* WMAlertEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A381DAFF1EC007EA99F /* WMAlertEventModel.m */; settings = {ASSET_TAGS = (); }; };
+		54979A3B1DB068EA007EA99F /* WMAlertEventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54979A3A1DB068EA007EA99F /* WMAlertEventCell.xib */; settings = {ASSET_TAGS = (); }; };
+		54979A3E1DB06B27007EA99F /* WMAlertEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A3D1DB06B27007EA99F /* WMAlertEventCell.m */; settings = {ASSET_TAGS = (); }; };
+		54979AB21DB0CFBD007EA99F /* WMAdPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A8C1DB0CFBD007EA99F /* WMAdPopViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54979AB31DB0CFBD007EA99F /* WMAdPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54979A8D1DB0CFBD007EA99F /* WMAdPopViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		54979AB41DB0CFBD007EA99F /* WMAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A901DB0CFBD007EA99F /* WMAdViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54979AB51DB0CFBD007EA99F /* WMAdFlowTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A931DB0CFBD007EA99F /* WMAdFlowTrendViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54979AB61DB0CFBD007EA99F /* WMFlowTrendAccessoryCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A971DB0CFBD007EA99F /* WMFlowTrendAccessoryCellItem.m */; settings = {ASSET_TAGS = (); }; };
+		54979AB71DB0CFBD007EA99F /* WMFlowTrendCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A991DB0CFBD007EA99F /* WMFlowTrendCellItem.m */; settings = {ASSET_TAGS = (); }; };
+		54979AB81DB0CFBD007EA99F /* WMFlowTrendChartCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A9B1DB0CFBD007EA99F /* WMFlowTrendChartCellItem.m */; settings = {ASSET_TAGS = (); }; };
+		54979AB91DB0CFBD007EA99F /* WMFlowTrendGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979A9D1DB0CFBD007EA99F /* WMFlowTrendGroupItem.m */; settings = {ASSET_TAGS = (); }; };
+		54979ABA1DB0CFBD007EA99F /* WMDetailsInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979AA01DB0CFBD007EA99F /* WMDetailsInfoModel.m */; settings = {ASSET_TAGS = (); }; };
+		54979ABB1DB0CFBD007EA99F /* WMSummaryInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979AA21DB0CFBD007EA99F /* WMSummaryInfoModel.m */; settings = {ASSET_TAGS = (); }; };
+		54979ABC1DB0CFBD007EA99F /* WMAdPopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979AA61DB0CFBD007EA99F /* WMAdPopCell.m */; settings = {ASSET_TAGS = (); }; };
+		54979ABD1DB0CFBD007EA99F /* WMAdPopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54979AA71DB0CFBD007EA99F /* WMAdPopCell.xib */; settings = {ASSET_TAGS = (); }; };
+		54979ABE1DB0CFBD007EA99F /* WMAdSummayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979AAA1DB0CFBD007EA99F /* WMAdSummayCell.m */; settings = {ASSET_TAGS = (); }; };
+		54979ABF1DB0CFBD007EA99F /* WMAdSummayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54979AAB1DB0CFBD007EA99F /* WMAdSummayCell.xib */; settings = {ASSET_TAGS = (); }; };
+		54979AC01DB0CFBD007EA99F /* WMAdChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979AAE1DB0CFBD007EA99F /* WMAdChartView.m */; settings = {ASSET_TAGS = (); }; };
+		54979AC11DB0CFBD007EA99F /* WMAdChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54979AAF1DB0CFBD007EA99F /* WMAdChartView.xib */; settings = {ASSET_TAGS = (); }; };
+		54979AC21DB0CFBD007EA99F /* WMFlowTrendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979AB11DB0CFBD007EA99F /* WMFlowTrendCell.m */; settings = {ASSET_TAGS = (); }; };
+		54979AC61DB0D01D007EA99F /* WMAdPopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979AC51DB0D01D007EA99F /* WMAdPopModel.m */; settings = {ASSET_TAGS = (); }; };
+		54979ACA1DB1E3A2007EA99F /* CMDateAndTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54979AC91DB1E3A2007EA99F /* CMDateAndTimeTool.m */; settings = {ASSET_TAGS = (); }; };
 		54B762091D83D5B100E2FCCC /* SVProgressHUD+WMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B762081D83D5B100E2FCCC /* SVProgressHUD+WMExtension.m */; settings = {ASSET_TAGS = (); }; };
 		54B762151D83EE3500E2FCCC /* WMPlusPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B762121D83EE3500E2FCCC /* WMPlusPopViewController.m */; settings = {ASSET_TAGS = (); }; };
 		54B762161D83EE3500E2FCCC /* WMWifiAnimatorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B762141D83EE3500E2FCCC /* WMWifiAnimatorTool.m */; settings = {ASSET_TAGS = (); }; };
@@ -61,8 +128,27 @@
 		54B762281D84661800E2FCCC /* WMAddWechatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54B762261D84661800E2FCCC /* WMAddWechatViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		54B7622C1D84663100E2FCCC /* WMAddQrcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B7622A1D84663100E2FCCC /* WMAddQrcodeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		54B7622D1D84663100E2FCCC /* WMAddQrcodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54B7622B1D84663100E2FCCC /* WMAddQrcodeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		54C432831D963D2E005E261C /* WMChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C432821D963D2E005E261C /* WMChartView.m */; settings = {ASSET_TAGS = (); }; };
+		54C432851D963D38005E261C /* WMChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54C432841D963D38005E261C /* WMChartView.xib */; settings = {ASSET_TAGS = (); }; };
+		54C432881D965190005E261C /* WMFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C432871D965190005E261C /* WMFlowView.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6C781D8BC82400913198 /* WMAccessPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6C771D8BC82400913198 /* WMAccessPoint.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6C7F1D8BDC3700913198 /* WMApViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6C7E1D8BDC3700913198 /* WMApViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6C821D8BE82900913198 /* WMApRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6C811D8BE82900913198 /* WMApRadio.m */; settings = {ASSET_TAGS = (); }; };
 		54EF6DE21D85035300236233 /* WMApManageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6DE01D85035300236233 /* WMApManageCell.m */; settings = {ASSET_TAGS = (); }; };
 		54EF6DE31D85035300236233 /* WMApManageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54EF6DE11D85035300236233 /* WMApManageCell.xib */; settings = {ASSET_TAGS = (); }; };
+		54EF6DE61D863ADC00236233 /* WMApInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6DE51D863ADC00236233 /* WMApInfo.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6DEA1D8640EE00236233 /* WMApInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6DE91D8640EE00236233 /* WMApInfoViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6DED1D8650C700236233 /* WMGroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6DEC1D8650C700236233 /* WMGroupInfo.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6DF51D8675FC00236233 /* WMGroupInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6DF41D8675FC00236233 /* WMGroupInfoViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6DF91D8691CB00236233 /* WMApAlterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6DF71D8691CB00236233 /* WMApAlterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6DFA1D8691CB00236233 /* WMApAlterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54EF6DF81D8691CB00236233 /* WMApAlterViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		54EF6DFD1D86B13700236233 /* WMApAnimatorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6DFC1D86B13700236233 /* WMApAnimatorTool.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6E001D86B59F00236233 /* WMApManagePresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6DFF1D86B59F00236233 /* WMApManagePresentationController.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6E031D86FE4400236233 /* WMBandWidthInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6E021D86FE4400236233 /* WMBandWidthInputView.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6E051D86FE6200236233 /* WMBandWidthInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54EF6E041D86FE6200236233 /* WMBandWidthInputView.xib */; settings = {ASSET_TAGS = (); }; };
+		54EF6E5F1D8B980300236233 /* WMHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6E5E1D8B980300236233 /* WMHeaderView.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6E631D8BB5E000236233 /* WMStateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF6E611D8BB5E000236233 /* WMStateCell.m */; settings = {ASSET_TAGS = (); }; };
+		54EF6E641D8BB5E000236233 /* WMStateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54EF6E621D8BB5E000236233 /* WMStateCell.xib */; settings = {ASSET_TAGS = (); }; };
 		6F8D4533E232B5F27F501BC4 /* libPods-WifiManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E67B84101F7E224448365F /* libPods-WifiManagerTests.a */; };
 		E69D80DC82EF4B9E6471E7C0 /* libPods-WifiManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7846780A9B0073910BDD8B /* libPods-WifiManager.a */; };
 /* End PBXBuildFile section */
@@ -88,11 +174,62 @@
 		043E1FC394B801015D37AF7A /* Pods-WifiManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManager/Pods-WifiManager.release.xcconfig"; sourceTree = "<group>"; };
 		29E67B84101F7E224448365F /* libPods-WifiManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WifiManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AC0A0C505DAA9F087B6B54 /* libPods-WifiManagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WifiManagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5413B12E1DB5A68300112BB7 /* WMFlowTrendBarChartCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFlowTrendBarChartCellItem.h; sourceTree = "<group>"; };
+		5413B12F1DB5A68300112BB7 /* WMFlowTrendBarChartCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMFlowTrendBarChartCellItem.m; sourceTree = "<group>"; };
+		5413B1341DB5B7EE00112BB7 /* WMBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMBarChart.h; sourceTree = "<group>"; };
+		5413B1351DB5B7EE00112BB7 /* WMBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMBarChart.m; sourceTree = "<group>"; };
+		5413B1371DB5F09300112BB7 /* WMBlackListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMBlackListCell.h; sourceTree = "<group>"; };
+		5413B1381DB5F09300112BB7 /* WMBlackListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMBlackListCell.m; sourceTree = "<group>"; };
+		5413B1391DB5F09300112BB7 /* WMBlackListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMBlackListCell.xib; sourceTree = "<group>"; };
+		5413B13C1DB5FC5200112BB7 /* WMBlackListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMBlackListModel.h; sourceTree = "<group>"; };
+		5413B13D1DB5FC5200112BB7 /* WMBlackListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMBlackListModel.m; sourceTree = "<group>"; };
+		541A77631DB610B5008564F7 /* WMAddBlackListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAddBlackListViewController.h; sourceTree = "<group>"; };
+		541A77641DB610B5008564F7 /* WMAddBlackListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAddBlackListViewController.m; sourceTree = "<group>"; };
+		541A77651DB610B5008564F7 /* WMAddBlackListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAddBlackListViewController.xib; sourceTree = "<group>"; };
+		541A77681DB653AE008564F7 /* WMSmsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMSmsViewController.xib; sourceTree = "<group>"; };
+		541A776A1DB66F3D008564F7 /* WMForumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMForumViewController.h; sourceTree = "<group>"; };
+		541A776B1DB66F3D008564F7 /* WMForumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMForumViewController.m; sourceTree = "<group>"; };
+		541A77701DB6FD88008564F7 /* WMApDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMApDataTool.h; sourceTree = "<group>"; };
+		541A77711DB6FD88008564F7 /* WMApDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMApDataTool.m; sourceTree = "<group>"; };
+		541A77731DB72BDB008564F7 /* WMNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNetworkTool.h; sourceTree = "<group>"; };
+		541A77741DB72BDB008564F7 /* WMNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNetworkTool.m; sourceTree = "<group>"; };
+		5420B24F1DAA366A00673963 /* WMChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMChartModel.h; sourceTree = "<group>"; };
+		5420B2501DAA366A00673963 /* WMChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMChartModel.m; sourceTree = "<group>"; };
+		5420B2521DAA382500673963 /* WMLineData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLineData.h; sourceTree = "<group>"; };
+		5420B2531DAA382500673963 /* WMLineData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLineData.m; sourceTree = "<group>"; };
+		5420B2551DAA3C0F00673963 /* WMLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLineChart.h; sourceTree = "<group>"; };
+		5420B2561DAA3C0F00673963 /* WMLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLineChart.m; sourceTree = "<group>"; };
 		543B3B021D80604B0032B506 /* WMNetworkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNetworkCell.h; sourceTree = "<group>"; };
 		543B3B031D80604B0032B506 /* WMNetworkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNetworkCell.m; sourceTree = "<group>"; };
 		543B3B041D80604B0032B506 /* WMNetworkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMNetworkCell.xib; sourceTree = "<group>"; };
 		543B3B081D8398120032B506 /* WMNetworkViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNetworkViewModel.h; sourceTree = "<group>"; };
 		543B3B091D8398120032B506 /* WMNetworkViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNetworkViewModel.m; sourceTree = "<group>"; };
+		545CE7621DA5E71A00A4FE8D /* WMDetailsLocalAccoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDetailsLocalAccoutCell.h; sourceTree = "<group>"; };
+		545CE7631DA5E71A00A4FE8D /* WMDetailsLocalAccoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDetailsLocalAccoutCell.m; sourceTree = "<group>"; };
+		545CE7641DA5E71A00A4FE8D /* WMDetailsLocalAccoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMDetailsLocalAccoutCell.xib; sourceTree = "<group>"; };
+		545CE7671DA5EBCA00A4FE8D /* WMDetailsOperationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDetailsOperationButton.h; sourceTree = "<group>"; };
+		545CE7681DA5EBCA00A4FE8D /* WMDetailsOperationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDetailsOperationButton.m; sourceTree = "<group>"; };
+		545CE76A1DA64AB600A4FE8D /* WMGuestAccoutModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGuestAccoutModel.h; sourceTree = "<group>"; };
+		545CE76B1DA64AB600A4FE8D /* WMGuestAccoutModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGuestAccoutModel.m; sourceTree = "<group>"; };
+		545CE76D1DA653F000A4FE8D /* WMTempoGuestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTempoGuestCell.h; sourceTree = "<group>"; };
+		545CE76E1DA653F000A4FE8D /* WMTempoGuestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTempoGuestCell.m; sourceTree = "<group>"; };
+		545CE76F1DA653F000A4FE8D /* WMTempoGuestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMTempoGuestCell.xib; sourceTree = "<group>"; };
+		545CE7721DA7219000A4FE8D /* WMAddTempoVistorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAddTempoVistorVC.h; sourceTree = "<group>"; };
+		545CE7731DA7219000A4FE8D /* WMAddTempoVistorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAddTempoVistorVC.m; sourceTree = "<group>"; };
+		545CE7741DA7219000A4FE8D /* WMAddTempoVistorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAddTempoVistorVC.xib; sourceTree = "<group>"; };
+		545CE7E91DA77CF900A4FE8D /* WMCustomMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCustomMenuCell.h; sourceTree = "<group>"; };
+		545CE7EA1DA77CF900A4FE8D /* WMCustomMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCustomMenuCell.m; sourceTree = "<group>"; };
+		545CE7EB1DA77CF900A4FE8D /* WMCustomMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMCustomMenuCell.xib; sourceTree = "<group>"; };
+		545CE7EE1DA781DB00A4FE8D /* WMCustomMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCustomMenuModel.h; sourceTree = "<group>"; };
+		545CE7EF1DA781DB00A4FE8D /* WMCustomMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCustomMenuModel.m; sourceTree = "<group>"; };
+		545CE7F11DA7823900A4FE8D /* customMenus.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = customMenus.plist; sourceTree = "<group>"; };
+		545CE7F31DA79B3200A4FE8D /* WMCustomChartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCustomChartVC.h; sourceTree = "<group>"; };
+		545CE7F41DA79B3200A4FE8D /* WMCustomChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCustomChartVC.m; sourceTree = "<group>"; };
+		545CE7F51DA79B3200A4FE8D /* WMCustomChartVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMCustomChartVC.xib; sourceTree = "<group>"; };
+		545CEA8A1DABE37C007B9EDD /* WMPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPieChart.h; sourceTree = "<group>"; };
+		545CEA8B1DABE37C007B9EDD /* WMPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPieChart.m; sourceTree = "<group>"; };
+		545CEA8D1DABE464007B9EDD /* WMPieData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPieData.h; sourceTree = "<group>"; };
+		545CEA8E1DABE464007B9EDD /* WMPieData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPieData.m; sourceTree = "<group>"; };
 		5464897B1D75A9720053731B /* WifiManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5464897F1D75A9720053731B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		546489881D75A9720053731B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,16 +244,11 @@
 		546489A51D75A9720053731B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546489BD1D75BC7C0053731B /* WMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTabBarViewController.h; sourceTree = "<group>"; };
 		546489BE1D75BC7C0053731B /* WMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTabBarViewController.m; sourceTree = "<group>"; };
-		546489C21D75BC7C0053731B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		546489C31D75BC7C0053731B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		546489C41D75BC7C0053731B /* WifiManager.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiManager.pch; sourceTree = "<group>"; };
 		546489D41D75BE770053731B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Device.storyboard; sourceTree = "<group>"; };
 		546489D71D75BE870053731B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Forum.storyboard; sourceTree = "<group>"; };
 		546489DA1D75BE980053731B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 		546489DC1D75BF000053731B /* WMDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDeviceViewController.h; sourceTree = "<group>"; };
 		546489DD1D75BF000053731B /* WMDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDeviceViewController.m; sourceTree = "<group>"; };
-		546489DF1D75C11D0053731B /* WMConstantVA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMConstantVA.h; sourceTree = "<group>"; };
-		546489E01D75C11D0053731B /* WMConstantVA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMConstantVA.m; sourceTree = "<group>"; };
 		546489E21D75C32F0053731B /* deviceIcon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = deviceIcon.plist; sourceTree = "<group>"; };
 		546489E41D75C4D90053731B /* WMDeviceIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDeviceIcon.h; sourceTree = "<group>"; };
 		546489E51D75C4D90053731B /* WMDeviceIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDeviceIcon.m; sourceTree = "<group>"; };
@@ -129,8 +261,19 @@
 		546EDFAC1D7848A4001CE4EE /* WMUserAccout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMUserAccout.m; sourceTree = "<group>"; };
 		546EDFAE1D784CCA001CE4EE /* WMUserAccoutViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMUserAccoutViewModel.h; sourceTree = "<group>"; };
 		546EDFAF1D784CCA001CE4EE /* WMUserAccoutViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMUserAccoutViewModel.m; sourceTree = "<group>"; };
+		547523071D99594E00991B98 /* WMLocalAccoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLocalAccoutVC.h; sourceTree = "<group>"; };
+		547523081D99594E00991B98 /* WMLocalAccoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLocalAccoutVC.m; sourceTree = "<group>"; };
+		5475230A1D99596600991B98 /* WMTempoVistorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTempoVistorVC.h; sourceTree = "<group>"; };
+		5475230B1D99596600991B98 /* WMTempoVistorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTempoVistorVC.m; sourceTree = "<group>"; };
+		5475230D1D9969D900991B98 /* WMGroupAccoutModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGroupAccoutModel.h; sourceTree = "<group>"; };
+		5475230E1D9969D900991B98 /* WMGroupAccoutModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGroupAccoutModel.m; sourceTree = "<group>"; };
+		547523101D99790000991B98 /* WMDetailsLocalAccoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDetailsLocalAccoutVC.h; sourceTree = "<group>"; };
+		547523111D99790000991B98 /* WMDetailsLocalAccoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDetailsLocalAccoutVC.m; sourceTree = "<group>"; };
 		5477E2001D7C01B900BEC3EB /* WMNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNetwork.h; sourceTree = "<group>"; };
 		5477E2011D7C01B900BEC3EB /* WMNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNetwork.m; sourceTree = "<group>"; };
+		5485E9081D8D518B005E5168 /* WMChannelRateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMChannelRateController.h; sourceTree = "<group>"; };
+		5485E9091D8D518B005E5168 /* WMChannelRateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMChannelRateController.m; sourceTree = "<group>"; };
+		5485E90A1D8D518B005E5168 /* WMChannelRateController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMChannelRateController.xib; sourceTree = "<group>"; };
 		548D7E441D75C680005ABD57 /* WMDeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDeviceCell.h; sourceTree = "<group>"; };
 		548D7E451D75C680005ABD57 /* WMDeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDeviceCell.m; sourceTree = "<group>"; };
 		548D7E461D75C680005ABD57 /* WMDeviceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMDeviceCell.xib; sourceTree = "<group>"; };
@@ -148,8 +291,6 @@
 		548D7E821D75CE8C005ABD57 /* WMSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSearchViewController.m; sourceTree = "<group>"; };
 		548D7E841D75CEA3005ABD57 /* WMCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCustomViewController.h; sourceTree = "<group>"; };
 		548D7E851D75CEA3005ABD57 /* WMCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCustomViewController.m; sourceTree = "<group>"; };
-		548D7E871D75CEB3005ABD57 /* WMAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAdViewController.h; sourceTree = "<group>"; };
-		548D7E881D75CEB3005ABD57 /* WMAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAdViewController.m; sourceTree = "<group>"; };
 		548D7E8A1D75CEC7005ABD57 /* WMWechatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWechatViewController.h; sourceTree = "<group>"; };
 		548D7E8B1D75CEC7005ABD57 /* WMWechatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWechatViewController.m; sourceTree = "<group>"; };
 		548D7E8D1D75CEDF005ABD57 /* WMSmsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSmsViewController.h; sourceTree = "<group>"; };
@@ -164,6 +305,70 @@
 		548D7EF91D7737FB005ABD57 /* CMHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTTPSessionManager.m; sourceTree = "<group>"; };
 		548D7EFA1D7737FB005ABD57 /* CMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNetworkManager.h; sourceTree = "<group>"; };
 		548D7EFB1D7737FB005ABD57 /* CMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNetworkManager.m; sourceTree = "<group>"; };
+		54979A051DAD371E007EA99F /* WMPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPieChartView.h; sourceTree = "<group>"; };
+		54979A061DAD371E007EA99F /* WMPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPieChartView.m; sourceTree = "<group>"; };
+		54979A0C1DAFAD39007EA99F /* WMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMBaseViewController.h; sourceTree = "<group>"; };
+		54979A0D1DAFAD39007EA99F /* WMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMBaseViewController.m; sourceTree = "<group>"; };
+		54979A0F1DAFB04F007EA99F /* WMCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCellItem.h; sourceTree = "<group>"; };
+		54979A101DAFB04F007EA99F /* WMCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCellItem.m; sourceTree = "<group>"; };
+		54979A121DAFB3EC007EA99F /* WMProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProfileCell.h; sourceTree = "<group>"; };
+		54979A131DAFB3EC007EA99F /* WMProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProfileCell.m; sourceTree = "<group>"; };
+		54979A151DAFB617007EA99F /* WMProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProfileViewController.h; sourceTree = "<group>"; };
+		54979A161DAFB617007EA99F /* WMProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProfileViewController.m; sourceTree = "<group>"; };
+		54979A1A1DAFB892007EA99F /* WMAccessoryCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAccessoryCellItem.h; sourceTree = "<group>"; };
+		54979A1B1DAFB892007EA99F /* WMAccessoryCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAccessoryCellItem.m; sourceTree = "<group>"; };
+		54979A1D1DAFBA54007EA99F /* WMButtomCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMButtomCellItem.h; sourceTree = "<group>"; };
+		54979A1E1DAFBA54007EA99F /* WMButtomCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMButtomCellItem.m; sourceTree = "<group>"; };
+		54979A201DAFBBB2007EA99F /* WMGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGroupItem.h; sourceTree = "<group>"; };
+		54979A211DAFBBB2007EA99F /* WMGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGroupItem.m; sourceTree = "<group>"; };
+		54979A241DAFD9B5007EA99F /* WifiManager.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiManager.pch; sourceTree = "<group>"; };
+		54979A251DAFD9B5007EA99F /* WMConstantVA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMConstantVA.h; sourceTree = "<group>"; };
+		54979A261DAFD9B5007EA99F /* WMConstantVA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMConstantVA.m; sourceTree = "<group>"; };
+		54979A281DAFD9B5007EA99F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54979A291DAFD9B5007EA99F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54979A2E1DAFDA23007EA99F /* CMFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMFileTool.h; sourceTree = "<group>"; };
+		54979A2F1DAFDA23007EA99F /* CMFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMFileTool.m; sourceTree = "<group>"; };
+		54979A311DAFE755007EA99F /* WMAlertEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlertEventViewController.h; sourceTree = "<group>"; };
+		54979A321DAFE755007EA99F /* WMAlertEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlertEventViewController.m; sourceTree = "<group>"; };
+		54979A371DAFF1EC007EA99F /* WMAlertEventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlertEventModel.h; sourceTree = "<group>"; };
+		54979A381DAFF1EC007EA99F /* WMAlertEventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlertEventModel.m; sourceTree = "<group>"; };
+		54979A3A1DB068EA007EA99F /* WMAlertEventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlertEventCell.xib; sourceTree = "<group>"; };
+		54979A3C1DB06B27007EA99F /* WMAlertEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlertEventCell.h; sourceTree = "<group>"; };
+		54979A3D1DB06B27007EA99F /* WMAlertEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlertEventCell.m; sourceTree = "<group>"; };
+		54979A8B1DB0CFBD007EA99F /* WMAdPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAdPopViewController.h; sourceTree = "<group>"; };
+		54979A8C1DB0CFBD007EA99F /* WMAdPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAdPopViewController.m; sourceTree = "<group>"; };
+		54979A8D1DB0CFBD007EA99F /* WMAdPopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAdPopViewController.xib; sourceTree = "<group>"; };
+		54979A8F1DB0CFBD007EA99F /* WMAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAdViewController.h; sourceTree = "<group>"; };
+		54979A901DB0CFBD007EA99F /* WMAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAdViewController.m; sourceTree = "<group>"; };
+		54979A921DB0CFBD007EA99F /* WMAdFlowTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAdFlowTrendViewController.h; sourceTree = "<group>"; };
+		54979A931DB0CFBD007EA99F /* WMAdFlowTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAdFlowTrendViewController.m; sourceTree = "<group>"; };
+		54979A961DB0CFBD007EA99F /* WMFlowTrendAccessoryCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFlowTrendAccessoryCellItem.h; sourceTree = "<group>"; };
+		54979A971DB0CFBD007EA99F /* WMFlowTrendAccessoryCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMFlowTrendAccessoryCellItem.m; sourceTree = "<group>"; };
+		54979A981DB0CFBD007EA99F /* WMFlowTrendCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFlowTrendCellItem.h; sourceTree = "<group>"; };
+		54979A991DB0CFBD007EA99F /* WMFlowTrendCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMFlowTrendCellItem.m; sourceTree = "<group>"; };
+		54979A9A1DB0CFBD007EA99F /* WMFlowTrendChartCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFlowTrendChartCellItem.h; sourceTree = "<group>"; };
+		54979A9B1DB0CFBD007EA99F /* WMFlowTrendChartCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMFlowTrendChartCellItem.m; sourceTree = "<group>"; };
+		54979A9C1DB0CFBD007EA99F /* WMFlowTrendGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFlowTrendGroupItem.h; sourceTree = "<group>"; };
+		54979A9D1DB0CFBD007EA99F /* WMFlowTrendGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMFlowTrendGroupItem.m; sourceTree = "<group>"; };
+		54979A9F1DB0CFBD007EA99F /* WMDetailsInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDetailsInfoModel.h; sourceTree = "<group>"; };
+		54979AA01DB0CFBD007EA99F /* WMDetailsInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDetailsInfoModel.m; sourceTree = "<group>"; };
+		54979AA11DB0CFBD007EA99F /* WMSummaryInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSummaryInfoModel.h; sourceTree = "<group>"; };
+		54979AA21DB0CFBD007EA99F /* WMSummaryInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSummaryInfoModel.m; sourceTree = "<group>"; };
+		54979AA51DB0CFBD007EA99F /* WMAdPopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAdPopCell.h; sourceTree = "<group>"; };
+		54979AA61DB0CFBD007EA99F /* WMAdPopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAdPopCell.m; sourceTree = "<group>"; };
+		54979AA71DB0CFBD007EA99F /* WMAdPopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAdPopCell.xib; sourceTree = "<group>"; };
+		54979AA91DB0CFBD007EA99F /* WMAdSummayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAdSummayCell.h; sourceTree = "<group>"; };
+		54979AAA1DB0CFBD007EA99F /* WMAdSummayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAdSummayCell.m; sourceTree = "<group>"; };
+		54979AAB1DB0CFBD007EA99F /* WMAdSummayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAdSummayCell.xib; sourceTree = "<group>"; };
+		54979AAD1DB0CFBD007EA99F /* WMAdChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAdChartView.h; sourceTree = "<group>"; };
+		54979AAE1DB0CFBD007EA99F /* WMAdChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAdChartView.m; sourceTree = "<group>"; };
+		54979AAF1DB0CFBD007EA99F /* WMAdChartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAdChartView.xib; sourceTree = "<group>"; };
+		54979AB01DB0CFBD007EA99F /* WMFlowTrendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFlowTrendCell.h; sourceTree = "<group>"; };
+		54979AB11DB0CFBD007EA99F /* WMFlowTrendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMFlowTrendCell.m; sourceTree = "<group>"; };
+		54979AC41DB0D01D007EA99F /* WMAdPopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAdPopModel.h; sourceTree = "<group>"; };
+		54979AC51DB0D01D007EA99F /* WMAdPopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAdPopModel.m; sourceTree = "<group>"; };
+		54979AC81DB1E3A2007EA99F /* CMDateAndTimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDateAndTimeTool.h; sourceTree = "<group>"; };
+		54979AC91DB1E3A2007EA99F /* CMDateAndTimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDateAndTimeTool.m; sourceTree = "<group>"; };
 		54B762071D83D5B100E2FCCC /* SVProgressHUD+WMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+WMExtension.h"; sourceTree = "<group>"; };
 		54B762081D83D5B100E2FCCC /* SVProgressHUD+WMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+WMExtension.m"; sourceTree = "<group>"; };
 		54B762111D83EE3500E2FCCC /* WMPlusPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPlusPopViewController.h; sourceTree = "<group>"; };
@@ -184,9 +389,43 @@
 		54B762291D84663100E2FCCC /* WMAddQrcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAddQrcodeViewController.h; sourceTree = "<group>"; };
 		54B7622A1D84663100E2FCCC /* WMAddQrcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAddQrcodeViewController.m; sourceTree = "<group>"; };
 		54B7622B1D84663100E2FCCC /* WMAddQrcodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAddQrcodeViewController.xib; sourceTree = "<group>"; };
+		54C432811D963D2E005E261C /* WMChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMChartView.h; sourceTree = "<group>"; };
+		54C432821D963D2E005E261C /* WMChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMChartView.m; sourceTree = "<group>"; };
+		54C432841D963D38005E261C /* WMChartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMChartView.xib; sourceTree = "<group>"; };
+		54C432861D965190005E261C /* WMFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFlowView.h; sourceTree = "<group>"; };
+		54C432871D965190005E261C /* WMFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMFlowView.m; sourceTree = "<group>"; };
+		54EF6C761D8BC82400913198 /* WMAccessPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAccessPoint.h; sourceTree = "<group>"; };
+		54EF6C771D8BC82400913198 /* WMAccessPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAccessPoint.m; sourceTree = "<group>"; };
+		54EF6C7D1D8BDC3700913198 /* WMApViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMApViewModel.h; sourceTree = "<group>"; };
+		54EF6C7E1D8BDC3700913198 /* WMApViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMApViewModel.m; sourceTree = "<group>"; };
+		54EF6C801D8BE82900913198 /* WMApRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMApRadio.h; sourceTree = "<group>"; };
+		54EF6C811D8BE82900913198 /* WMApRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMApRadio.m; sourceTree = "<group>"; };
 		54EF6DDF1D85035300236233 /* WMApManageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMApManageCell.h; sourceTree = "<group>"; };
 		54EF6DE01D85035300236233 /* WMApManageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMApManageCell.m; sourceTree = "<group>"; };
 		54EF6DE11D85035300236233 /* WMApManageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMApManageCell.xib; sourceTree = "<group>"; };
+		54EF6DE41D863ADC00236233 /* WMApInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMApInfo.h; sourceTree = "<group>"; };
+		54EF6DE51D863ADC00236233 /* WMApInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMApInfo.m; sourceTree = "<group>"; };
+		54EF6DE81D8640EE00236233 /* WMApInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMApInfoViewModel.h; sourceTree = "<group>"; };
+		54EF6DE91D8640EE00236233 /* WMApInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMApInfoViewModel.m; sourceTree = "<group>"; };
+		54EF6DEB1D8650C700236233 /* WMGroupInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGroupInfo.h; sourceTree = "<group>"; };
+		54EF6DEC1D8650C700236233 /* WMGroupInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGroupInfo.m; sourceTree = "<group>"; };
+		54EF6DF31D8675FC00236233 /* WMGroupInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGroupInfoViewModel.h; sourceTree = "<group>"; };
+		54EF6DF41D8675FC00236233 /* WMGroupInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGroupInfoViewModel.m; sourceTree = "<group>"; };
+		54EF6DF61D8691CB00236233 /* WMApAlterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMApAlterViewController.h; sourceTree = "<group>"; };
+		54EF6DF71D8691CB00236233 /* WMApAlterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMApAlterViewController.m; sourceTree = "<group>"; };
+		54EF6DF81D8691CB00236233 /* WMApAlterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMApAlterViewController.xib; sourceTree = "<group>"; };
+		54EF6DFB1D86B13700236233 /* WMApAnimatorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMApAnimatorTool.h; sourceTree = "<group>"; };
+		54EF6DFC1D86B13700236233 /* WMApAnimatorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMApAnimatorTool.m; sourceTree = "<group>"; };
+		54EF6DFE1D86B59F00236233 /* WMApManagePresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMApManagePresentationController.h; sourceTree = "<group>"; };
+		54EF6DFF1D86B59F00236233 /* WMApManagePresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMApManagePresentationController.m; sourceTree = "<group>"; };
+		54EF6E011D86FE4400236233 /* WMBandWidthInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMBandWidthInputView.h; sourceTree = "<group>"; };
+		54EF6E021D86FE4400236233 /* WMBandWidthInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMBandWidthInputView.m; sourceTree = "<group>"; };
+		54EF6E041D86FE6200236233 /* WMBandWidthInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMBandWidthInputView.xib; sourceTree = "<group>"; };
+		54EF6E5D1D8B980300236233 /* WMHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMHeaderView.h; sourceTree = "<group>"; };
+		54EF6E5E1D8B980300236233 /* WMHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMHeaderView.m; sourceTree = "<group>"; };
+		54EF6E601D8BB5E000236233 /* WMStateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMStateCell.h; sourceTree = "<group>"; };
+		54EF6E611D8BB5E000236233 /* WMStateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMStateCell.m; sourceTree = "<group>"; };
+		54EF6E621D8BB5E000236233 /* WMStateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMStateCell.xib; sourceTree = "<group>"; };
 		5E121FB57FE3015601FFF205 /* Pods-WifiManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManagerTests/Pods-WifiManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8347E5D0968E6CCB2C31BC08 /* Pods-WifiManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManagerUITests/Pods-WifiManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B102727B661BE29444DF8027 /* Pods-WifiManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiManager/Pods-WifiManager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -301,7 +540,6 @@
 				548D7E511D75CDF8005ABD57 /* ApManage(AP管理) */,
 				548D7E551D75CDF8005ABD57 /* Auth(认证授权) */,
 				548D7E591D75CDF8005ABD57 /* Custom(客流分析) */,
-				548D7E5D1D75CDF8005ABD57 /* Profile(个人中心) */,
 				548D7E611D75CDF8005ABD57 /* Search(搜索分析) */,
 				548D7E651D75CDF8005ABD57 /* SMS(短信访客) */,
 				548D7E691D75CDF8005ABD57 /* Wechat(微信访客) */,
@@ -354,13 +592,11 @@
 		546489C11D75BC7C0053731B /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				54979A231DAFD9B5007EA99F /* Other */,
+				54979A271DAFD9B5007EA99F /* System */,
+				54979A2A1DAFD9B5007EA99F /* Tool */,
 				548D7EF51D7737FB005ABD57 /* NetworkManager */,
 				548D7E491D75C7BC005ABD57 /* Category */,
-				546489C21D75BC7C0053731B /* AppDelegate.h */,
-				546489C31D75BC7C0053731B /* AppDelegate.m */,
-				546489C41D75BC7C0053731B /* WifiManager.pch */,
-				546489DF1D75C11D0053731B /* WMConstantVA.h */,
-				546489E01D75C11D0053731B /* WMConstantVA.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -419,6 +655,8 @@
 		546489CC1D75BE5C0053731B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				541A776A1DB66F3D008564F7 /* WMForumViewController.h */,
+				541A776B1DB66F3D008564F7 /* WMForumViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -451,6 +689,12 @@
 		546489D01D75BE5C0053731B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				54979A0C1DAFAD39007EA99F /* WMBaseViewController.h */,
+				54979A0D1DAFAD39007EA99F /* WMBaseViewController.m */,
+				54979A151DAFB617007EA99F /* WMProfileViewController.h */,
+				54979A161DAFB617007EA99F /* WMProfileViewController.m */,
+				54979A311DAFE755007EA99F /* WMAlertEventViewController.h */,
+				54979A321DAFE755007EA99F /* WMAlertEventViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -458,6 +702,16 @@
 		546489D11D75BE5C0053731B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				54979A0F1DAFB04F007EA99F /* WMCellItem.h */,
+				54979A101DAFB04F007EA99F /* WMCellItem.m */,
+				54979A1A1DAFB892007EA99F /* WMAccessoryCellItem.h */,
+				54979A1B1DAFB892007EA99F /* WMAccessoryCellItem.m */,
+				54979A1D1DAFBA54007EA99F /* WMButtomCellItem.h */,
+				54979A1E1DAFBA54007EA99F /* WMButtomCellItem.m */,
+				54979A201DAFBBB2007EA99F /* WMGroupItem.h */,
+				54979A211DAFBBB2007EA99F /* WMGroupItem.m */,
+				54979A371DAFF1EC007EA99F /* WMAlertEventModel.h */,
+				54979A381DAFF1EC007EA99F /* WMAlertEventModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -465,6 +719,11 @@
 		546489D21D75BE5C0053731B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				54979A121DAFB3EC007EA99F /* WMProfileCell.h */,
+				54979A131DAFB3EC007EA99F /* WMProfileCell.m */,
+				54979A3A1DB068EA007EA99F /* WMAlertEventCell.xib */,
+				54979A3C1DB06B27007EA99F /* WMAlertEventCell.h */,
+				54979A3D1DB06B27007EA99F /* WMAlertEventCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -492,6 +751,99 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		547522FF1D99592000991B98 /* LocalAccout(本地账号) */ = {
+			isa = PBXGroup;
+			children = (
+				547523001D99592000991B98 /* Controller */,
+				547523011D99592000991B98 /* Model */,
+				547523021D99592000991B98 /* View */,
+			);
+			path = "LocalAccout(本地账号)";
+			sourceTree = "<group>";
+		};
+		547523001D99592000991B98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				547523071D99594E00991B98 /* WMLocalAccoutVC.h */,
+				547523081D99594E00991B98 /* WMLocalAccoutVC.m */,
+				547523101D99790000991B98 /* WMDetailsLocalAccoutVC.h */,
+				547523111D99790000991B98 /* WMDetailsLocalAccoutVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		547523011D99592000991B98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5475230D1D9969D900991B98 /* WMGroupAccoutModel.h */,
+				5475230E1D9969D900991B98 /* WMGroupAccoutModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		547523021D99592000991B98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				545CE7621DA5E71A00A4FE8D /* WMDetailsLocalAccoutCell.h */,
+				545CE7631DA5E71A00A4FE8D /* WMDetailsLocalAccoutCell.m */,
+				545CE7641DA5E71A00A4FE8D /* WMDetailsLocalAccoutCell.xib */,
+				545CE7671DA5EBCA00A4FE8D /* WMDetailsOperationButton.h */,
+				545CE7681DA5EBCA00A4FE8D /* WMDetailsOperationButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		547523031D99592000991B98 /* TempoVistor(临时访客) */ = {
+			isa = PBXGroup;
+			children = (
+				547523041D99592000991B98 /* Controller */,
+				547523051D99592000991B98 /* Model */,
+				547523061D99592000991B98 /* View */,
+			);
+			path = "TempoVistor(临时访客)";
+			sourceTree = "<group>";
+		};
+		547523041D99592000991B98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5475230A1D99596600991B98 /* WMTempoVistorVC.h */,
+				5475230B1D99596600991B98 /* WMTempoVistorVC.m */,
+				545CE7721DA7219000A4FE8D /* WMAddTempoVistorVC.h */,
+				545CE7731DA7219000A4FE8D /* WMAddTempoVistorVC.m */,
+				545CE7741DA7219000A4FE8D /* WMAddTempoVistorVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		547523051D99592000991B98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				545CE76A1DA64AB600A4FE8D /* WMGuestAccoutModel.h */,
+				545CE76B1DA64AB600A4FE8D /* WMGuestAccoutModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		547523061D99592000991B98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				545CE76D1DA653F000A4FE8D /* WMTempoGuestCell.h */,
+				545CE76E1DA653F000A4FE8D /* WMTempoGuestCell.m */,
+				545CE76F1DA653F000A4FE8D /* WMTempoGuestCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5485E9071D8D5158005E5168 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				5485E9081D8D518B005E5168 /* WMChannelRateController.h */,
+				5485E9091D8D518B005E5168 /* WMChannelRateController.m */,
+				5485E90A1D8D518B005E5168 /* WMChannelRateController.xib */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		548D7E491D75C7BC005ABD57 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -508,39 +860,17 @@
 		548D7E4D1D75CDF8005ABD57 /* Ad(推广统计) */ = {
 			isa = PBXGroup;
 			children = (
-				548D7E4E1D75CDF8005ABD57 /* Controller */,
-				548D7E4F1D75CDF8005ABD57 /* Model */,
-				548D7E501D75CDF8005ABD57 /* View */,
+				54979A891DB0CFBD007EA99F /* Controller */,
+				54979A941DB0CFBD007EA99F /* Model */,
+				54979AA31DB0CFBD007EA99F /* View */,
 			);
 			path = "Ad(推广统计)";
-			sourceTree = "<group>";
-		};
-		548D7E4E1D75CDF8005ABD57 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				548D7E871D75CEB3005ABD57 /* WMAdViewController.h */,
-				548D7E881D75CEB3005ABD57 /* WMAdViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		548D7E4F1D75CDF8005ABD57 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		548D7E501D75CDF8005ABD57 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		548D7E511D75CDF8005ABD57 /* ApManage(AP管理) */ = {
 			isa = PBXGroup;
 			children = (
+				54EF6DE71D8640E200236233 /* ViewModel */,
 				548D7E521D75CDF8005ABD57 /* Controller */,
 				548D7E531D75CDF8005ABD57 /* Model */,
 				548D7E541D75CDF8005ABD57 /* View */,
@@ -553,6 +883,13 @@
 			children = (
 				548D7E781D75CE41005ABD57 /* WMApManageViewController.h */,
 				548D7E791D75CE41005ABD57 /* WMApManageViewController.m */,
+				54EF6DF61D8691CB00236233 /* WMApAlterViewController.h */,
+				54EF6DF71D8691CB00236233 /* WMApAlterViewController.m */,
+				54EF6DF81D8691CB00236233 /* WMApAlterViewController.xib */,
+				54EF6DFB1D86B13700236233 /* WMApAnimatorTool.h */,
+				54EF6DFC1D86B13700236233 /* WMApAnimatorTool.m */,
+				54EF6DFE1D86B59F00236233 /* WMApManagePresentationController.h */,
+				54EF6DFF1D86B59F00236233 /* WMApManagePresentationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -560,6 +897,12 @@
 		548D7E531D75CDF8005ABD57 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				54EF6DE41D863ADC00236233 /* WMApInfo.h */,
+				54EF6DE51D863ADC00236233 /* WMApInfo.m */,
+				54EF6DEB1D8650C700236233 /* WMGroupInfo.h */,
+				54EF6DEC1D8650C700236233 /* WMGroupInfo.m */,
+				541A77701DB6FD88008564F7 /* WMApDataTool.h */,
+				541A77711DB6FD88008564F7 /* WMApDataTool.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -570,6 +913,9 @@
 				54EF6DDF1D85035300236233 /* WMApManageCell.h */,
 				54EF6DE01D85035300236233 /* WMApManageCell.m */,
 				54EF6DE11D85035300236233 /* WMApManageCell.xib */,
+				54EF6E011D86FE4400236233 /* WMBandWidthInputView.h */,
+				54EF6E021D86FE4400236233 /* WMBandWidthInputView.m */,
+				54EF6E041D86FE6200236233 /* WMBandWidthInputView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -577,6 +923,8 @@
 		548D7E551D75CDF8005ABD57 /* Auth(认证授权) */ = {
 			isa = PBXGroup;
 			children = (
+				547522FF1D99592000991B98 /* LocalAccout(本地账号) */,
+				547523031D99592000991B98 /* TempoVistor(临时访客) */,
 				548D7E561D75CDF8005ABD57 /* Controller */,
 				548D7E571D75CDF8005ABD57 /* Model */,
 				548D7E581D75CDF8005ABD57 /* View */,
@@ -622,6 +970,9 @@
 			children = (
 				548D7E841D75CEA3005ABD57 /* WMCustomViewController.h */,
 				548D7E851D75CEA3005ABD57 /* WMCustomViewController.m */,
+				545CE7F31DA79B3200A4FE8D /* WMCustomChartVC.h */,
+				545CE7F41DA79B3200A4FE8D /* WMCustomChartVC.m */,
+				545CE7F51DA79B3200A4FE8D /* WMCustomChartVC.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -629,6 +980,15 @@
 		548D7E5B1D75CDF8005ABD57 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				545CE7EE1DA781DB00A4FE8D /* WMCustomMenuModel.h */,
+				545CE7EF1DA781DB00A4FE8D /* WMCustomMenuModel.m */,
+				545CE7F11DA7823900A4FE8D /* customMenus.plist */,
+				5420B24F1DAA366A00673963 /* WMChartModel.h */,
+				5420B2501DAA366A00673963 /* WMChartModel.m */,
+				5420B2521DAA382500673963 /* WMLineData.h */,
+				5420B2531DAA382500673963 /* WMLineData.m */,
+				545CEA8D1DABE464007B9EDD /* WMPieData.h */,
+				545CEA8E1DABE464007B9EDD /* WMPieData.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -636,37 +996,15 @@
 		548D7E5C1D75CDF8005ABD57 /* View */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		548D7E5D1D75CDF8005ABD57 /* Profile(个人中心) */ = {
-			isa = PBXGroup;
-			children = (
-				548D7E5E1D75CDF8005ABD57 /* Controller */,
-				548D7E5F1D75CDF8005ABD57 /* Model */,
-				548D7E601D75CDF8005ABD57 /* View */,
-			);
-			path = "Profile(个人中心)";
-			sourceTree = "<group>";
-		};
-		548D7E5E1D75CDF8005ABD57 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		548D7E5F1D75CDF8005ABD57 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		548D7E601D75CDF8005ABD57 /* View */ = {
-			isa = PBXGroup;
-			children = (
+				545CE7E91DA77CF900A4FE8D /* WMCustomMenuCell.h */,
+				545CE7EA1DA77CF900A4FE8D /* WMCustomMenuCell.m */,
+				545CE7EB1DA77CF900A4FE8D /* WMCustomMenuCell.xib */,
+				5420B2551DAA3C0F00673963 /* WMLineChart.h */,
+				5420B2561DAA3C0F00673963 /* WMLineChart.m */,
+				545CEA8A1DABE37C007B9EDD /* WMPieChart.h */,
+				545CEA8B1DABE37C007B9EDD /* WMPieChart.m */,
+				54979A051DAD371E007EA99F /* WMPieChartView.h */,
+				54979A061DAD371E007EA99F /* WMPieChartView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -719,6 +1057,7 @@
 			children = (
 				548D7E8D1D75CEDF005ABD57 /* WMSmsViewController.h */,
 				548D7E8E1D75CEDF005ABD57 /* WMSmsViewController.m */,
+				541A77681DB653AE008564F7 /* WMSmsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -752,6 +1091,9 @@
 			children = (
 				548D7E8A1D75CEC7005ABD57 /* WMWechatViewController.h */,
 				548D7E8B1D75CEC7005ABD57 /* WMWechatViewController.m */,
+				541A77631DB610B5008564F7 /* WMAddBlackListViewController.h */,
+				541A77641DB610B5008564F7 /* WMAddBlackListViewController.m */,
+				541A77651DB610B5008564F7 /* WMAddBlackListViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -759,6 +1101,8 @@
 		548D7E6B1D75CDF8005ABD57 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5413B13C1DB5FC5200112BB7 /* WMBlackListModel.h */,
+				5413B13D1DB5FC5200112BB7 /* WMBlackListModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -766,6 +1110,9 @@
 		548D7E6C1D75CDF8005ABD57 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5413B1371DB5F09300112BB7 /* WMBlackListCell.h */,
+				5413B1381DB5F09300112BB7 /* WMBlackListCell.m */,
+				5413B1391DB5F09300112BB7 /* WMBlackListCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -808,6 +1155,8 @@
 			children = (
 				5477E2001D7C01B900BEC3EB /* WMNetwork.h */,
 				5477E2011D7C01B900BEC3EB /* WMNetwork.m */,
+				541A77731DB72BDB008564F7 /* WMNetworkTool.h */,
+				541A77741DB72BDB008564F7 /* WMNetworkTool.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -825,6 +1174,8 @@
 		548D7E711D75CDF8005ABD57 /* WifiState(无线状态) */ = {
 			isa = PBXGroup;
 			children = (
+				5485E9071D8D5158005E5168 /* Details */,
+				54EF6C7C1D8BDC3700913198 /* ViewModel */,
 				548D7E721D75CDF8005ABD57 /* Controller */,
 				548D7E731D75CDF8005ABD57 /* Model */,
 				548D7E741D75CDF8005ABD57 /* View */,
@@ -844,6 +1195,10 @@
 		548D7E731D75CDF8005ABD57 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				54EF6C761D8BC82400913198 /* WMAccessPoint.h */,
+				54EF6C771D8BC82400913198 /* WMAccessPoint.m */,
+				54EF6C801D8BE82900913198 /* WMApRadio.h */,
+				54EF6C811D8BE82900913198 /* WMApRadio.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -851,6 +1206,16 @@
 		548D7E741D75CDF8005ABD57 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				54EF6E5D1D8B980300236233 /* WMHeaderView.h */,
+				54EF6E5E1D8B980300236233 /* WMHeaderView.m */,
+				54EF6E601D8BB5E000236233 /* WMStateCell.h */,
+				54EF6E611D8BB5E000236233 /* WMStateCell.m */,
+				54EF6E621D8BB5E000236233 /* WMStateCell.xib */,
+				54C432811D963D2E005E261C /* WMChartView.h */,
+				54C432821D963D2E005E261C /* WMChartView.m */,
+				54C432841D963D38005E261C /* WMChartView.xib */,
+				54C432861D965190005E261C /* WMFlowView.h */,
+				54C432871D965190005E261C /* WMFlowView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -877,6 +1242,181 @@
 			path = NetworkManager;
 			sourceTree = "<group>";
 		};
+		54979A231DAFD9B5007EA99F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				54979A241DAFD9B5007EA99F /* WifiManager.pch */,
+				54979A251DAFD9B5007EA99F /* WMConstantVA.h */,
+				54979A261DAFD9B5007EA99F /* WMConstantVA.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		54979A271DAFD9B5007EA99F /* System */ = {
+			isa = PBXGroup;
+			children = (
+				54979A281DAFD9B5007EA99F /* AppDelegate.h */,
+				54979A291DAFD9B5007EA99F /* AppDelegate.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		54979A2A1DAFD9B5007EA99F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				54979AC71DB1E38E007EA99F /* DateAndTime */,
+				54979A2D1DAFDA23007EA99F /* FileTool */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		54979A2D1DAFDA23007EA99F /* FileTool */ = {
+			isa = PBXGroup;
+			children = (
+				54979A2E1DAFDA23007EA99F /* CMFileTool.h */,
+				54979A2F1DAFDA23007EA99F /* CMFileTool.m */,
+			);
+			path = FileTool;
+			sourceTree = "<group>";
+		};
+		54979A891DB0CFBD007EA99F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54979A8A1DB0CFBD007EA99F /* AdPopover(条件选择) */,
+				54979A8E1DB0CFBD007EA99F /* Base(基础) */,
+				54979A911DB0CFBD007EA99F /* FlowTrend(曲线) */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54979A8A1DB0CFBD007EA99F /* AdPopover(条件选择) */ = {
+			isa = PBXGroup;
+			children = (
+				54979A8B1DB0CFBD007EA99F /* WMAdPopViewController.h */,
+				54979A8C1DB0CFBD007EA99F /* WMAdPopViewController.m */,
+				54979A8D1DB0CFBD007EA99F /* WMAdPopViewController.xib */,
+			);
+			path = "AdPopover(条件选择)";
+			sourceTree = "<group>";
+		};
+		54979A8E1DB0CFBD007EA99F /* Base(基础) */ = {
+			isa = PBXGroup;
+			children = (
+				54979A8F1DB0CFBD007EA99F /* WMAdViewController.h */,
+				54979A901DB0CFBD007EA99F /* WMAdViewController.m */,
+			);
+			path = "Base(基础)";
+			sourceTree = "<group>";
+		};
+		54979A911DB0CFBD007EA99F /* FlowTrend(曲线) */ = {
+			isa = PBXGroup;
+			children = (
+				54979A921DB0CFBD007EA99F /* WMAdFlowTrendViewController.h */,
+				54979A931DB0CFBD007EA99F /* WMAdFlowTrendViewController.m */,
+			);
+			path = "FlowTrend(曲线)";
+			sourceTree = "<group>";
+		};
+		54979A941DB0CFBD007EA99F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54979AC31DB0D007007EA99F /* AdPopover(条件选择) */,
+				54979A951DB0CFBD007EA99F /* Base(基础) */,
+				54979A9E1DB0CFBD007EA99F /* FlowTrend(曲线) */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54979A951DB0CFBD007EA99F /* Base(基础) */ = {
+			isa = PBXGroup;
+			children = (
+				54979A961DB0CFBD007EA99F /* WMFlowTrendAccessoryCellItem.h */,
+				54979A971DB0CFBD007EA99F /* WMFlowTrendAccessoryCellItem.m */,
+				54979A981DB0CFBD007EA99F /* WMFlowTrendCellItem.h */,
+				54979A991DB0CFBD007EA99F /* WMFlowTrendCellItem.m */,
+				54979A9A1DB0CFBD007EA99F /* WMFlowTrendChartCellItem.h */,
+				54979A9B1DB0CFBD007EA99F /* WMFlowTrendChartCellItem.m */,
+				54979A9C1DB0CFBD007EA99F /* WMFlowTrendGroupItem.h */,
+				54979A9D1DB0CFBD007EA99F /* WMFlowTrendGroupItem.m */,
+				5413B12E1DB5A68300112BB7 /* WMFlowTrendBarChartCellItem.h */,
+				5413B12F1DB5A68300112BB7 /* WMFlowTrendBarChartCellItem.m */,
+			);
+			path = "Base(基础)";
+			sourceTree = "<group>";
+		};
+		54979A9E1DB0CFBD007EA99F /* FlowTrend(曲线) */ = {
+			isa = PBXGroup;
+			children = (
+				54979A9F1DB0CFBD007EA99F /* WMDetailsInfoModel.h */,
+				54979AA01DB0CFBD007EA99F /* WMDetailsInfoModel.m */,
+				54979AA11DB0CFBD007EA99F /* WMSummaryInfoModel.h */,
+				54979AA21DB0CFBD007EA99F /* WMSummaryInfoModel.m */,
+			);
+			path = "FlowTrend(曲线)";
+			sourceTree = "<group>";
+		};
+		54979AA31DB0CFBD007EA99F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54979AA41DB0CFBD007EA99F /* AdPopover(条件选择) */,
+				54979AA81DB0CFBD007EA99F /* Base(基础) */,
+				54979AAC1DB0CFBD007EA99F /* FlowTrend(曲线) */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54979AA41DB0CFBD007EA99F /* AdPopover(条件选择) */ = {
+			isa = PBXGroup;
+			children = (
+				54979AA51DB0CFBD007EA99F /* WMAdPopCell.h */,
+				54979AA61DB0CFBD007EA99F /* WMAdPopCell.m */,
+				54979AA71DB0CFBD007EA99F /* WMAdPopCell.xib */,
+			);
+			path = "AdPopover(条件选择)";
+			sourceTree = "<group>";
+		};
+		54979AA81DB0CFBD007EA99F /* Base(基础) */ = {
+			isa = PBXGroup;
+			children = (
+				54979AA91DB0CFBD007EA99F /* WMAdSummayCell.h */,
+				54979AAA1DB0CFBD007EA99F /* WMAdSummayCell.m */,
+				54979AAB1DB0CFBD007EA99F /* WMAdSummayCell.xib */,
+			);
+			path = "Base(基础)";
+			sourceTree = "<group>";
+		};
+		54979AAC1DB0CFBD007EA99F /* FlowTrend(曲线) */ = {
+			isa = PBXGroup;
+			children = (
+				54979AAD1DB0CFBD007EA99F /* WMAdChartView.h */,
+				54979AAE1DB0CFBD007EA99F /* WMAdChartView.m */,
+				54979AAF1DB0CFBD007EA99F /* WMAdChartView.xib */,
+				54979AB01DB0CFBD007EA99F /* WMFlowTrendCell.h */,
+				54979AB11DB0CFBD007EA99F /* WMFlowTrendCell.m */,
+				5413B1341DB5B7EE00112BB7 /* WMBarChart.h */,
+				5413B1351DB5B7EE00112BB7 /* WMBarChart.m */,
+			);
+			path = "FlowTrend(曲线)";
+			sourceTree = "<group>";
+		};
+		54979AC31DB0D007007EA99F /* AdPopover(条件选择) */ = {
+			isa = PBXGroup;
+			children = (
+				54979AC41DB0D01D007EA99F /* WMAdPopModel.h */,
+				54979AC51DB0D01D007EA99F /* WMAdPopModel.m */,
+			);
+			path = "AdPopover(条件选择)";
+			sourceTree = "<group>";
+		};
+		54979AC71DB1E38E007EA99F /* DateAndTime */ = {
+			isa = PBXGroup;
+			children = (
+				54979AC81DB1E3A2007EA99F /* CMDateAndTimeTool.h */,
+				54979AC91DB1E3A2007EA99F /* CMDateAndTimeTool.m */,
+			);
+			path = DateAndTime;
+			sourceTree = "<group>";
+		};
 		54B762101D83EE3500E2FCCC /* Pop(弹出VC及动画) */ = {
 			isa = PBXGroup;
 			children = (
@@ -888,6 +1428,26 @@
 				54B762181D83EEE100E2FCCC /* WMPresentationController.m */,
 			);
 			path = "Pop(弹出VC及动画)";
+			sourceTree = "<group>";
+		};
+		54EF6C7C1D8BDC3700913198 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				54EF6C7D1D8BDC3700913198 /* WMApViewModel.h */,
+				54EF6C7E1D8BDC3700913198 /* WMApViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		54EF6DE71D8640E200236233 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				54EF6DE81D8640EE00236233 /* WMApInfoViewModel.h */,
+				54EF6DE91D8640EE00236233 /* WMApInfoViewModel.m */,
+				54EF6DF31D8675FC00236233 /* WMGroupInfoViewModel.h */,
+				54EF6DF41D8675FC00236233 /* WMGroupInfoViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		8215319D919A0607D843C5BA /* Frameworks */ = {
@@ -1029,18 +1589,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				546489DB1D75BE980053731B /* Profile.storyboard in Resources */,
+				5413B13B1DB5F09300112BB7 /* WMBlackListCell.xib in Resources */,
+				54C432851D963D38005E261C /* WMChartView.xib in Resources */,
 				546489D51D75BE770053731B /* Device.storyboard in Resources */,
+				54979AC11DB0CFBD007EA99F /* WMAdChartView.xib in Resources */,
 				546489E31D75C32F0053731B /* deviceIcon.plist in Resources */,
+				545CE7711DA653F000A4FE8D /* WMTempoGuestCell.xib in Resources */,
+				54979A3B1DB068EA007EA99F /* WMAlertEventCell.xib in Resources */,
 				546489D81D75BE870053731B /* Forum.storyboard in Resources */,
+				54EF6E051D86FE6200236233 /* WMBandWidthInputView.xib in Resources */,
 				546EDFA91D784893001CE4EE /* WMLoginView.xib in Resources */,
 				5464898E1D75A9720053731B /* LaunchScreen.storyboard in Resources */,
 				54B762231D84660300E2FCCC /* WMAddSmsViewController.xib in Resources */,
 				54B7621E1D842EA000E2FCCC /* WMAddPskViewController.xib in Resources */,
+				54979ABF1DB0CFBD007EA99F /* WMAdSummayCell.xib in Resources */,
+				54EF6E641D8BB5E000236233 /* WMStateCell.xib in Resources */,
+				54979AB31DB0CFBD007EA99F /* WMAdPopViewController.xib in Resources */,
+				545CE7761DA7219000A4FE8D /* WMAddTempoVistorVC.xib in Resources */,
+				541A77691DB653AE008564F7 /* WMSmsViewController.xib in Resources */,
+				545CE7661DA5E71A00A4FE8D /* WMDetailsLocalAccoutCell.xib in Resources */,
+				54EF6DFA1D8691CB00236233 /* WMApAlterViewController.xib in Resources */,
+				541A77671DB610B5008564F7 /* WMAddBlackListViewController.xib in Resources */,
+				54979ABD1DB0CFBD007EA99F /* WMAdPopCell.xib in Resources */,
 				54EF6DE31D85035300236233 /* WMApManageCell.xib in Resources */,
 				548D7E481D75C680005ABD57 /* WMDeviceCell.xib in Resources */,
+				545CE7ED1DA77CF900A4FE8D /* WMCustomMenuCell.xib in Resources */,
 				54B762281D84661800E2FCCC /* WMAddWechatViewController.xib in Resources */,
 				54B7622D1D84663100E2FCCC /* WMAddQrcodeViewController.xib in Resources */,
+				545CE7F71DA79B3200A4FE8D /* WMCustomChartVC.xib in Resources */,
 				5464898B1D75A9720053731B /* Assets.xcassets in Resources */,
+				5485E90C1D8D518B005E5168 /* WMChannelRateController.xib in Resources */,
+				545CE7F21DA7823900A4FE8D /* customMenus.plist in Resources */,
 				543B3B061D80604B0032B506 /* WMNetworkCell.xib in Resources */,
 				546489891D75A9720053731B /* Main.storyboard in Resources */,
 			);
@@ -1190,44 +1769,111 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54979A171DAFB617007EA99F /* WMProfileViewController.m in Sources */,
+				5413B1361DB5B7EE00112BB7 /* WMBarChart.m in Sources */,
+				54EF6DE61D863ADC00236233 /* WMApInfo.m in Sources */,
+				54979A2C1DAFD9B5007EA99F /* AppDelegate.m in Sources */,
+				54979AB41DB0CFBD007EA99F /* WMAdViewController.m in Sources */,
+				54979ABA1DB0CFBD007EA99F /* WMDetailsInfoModel.m in Sources */,
+				54EF6DED1D8650C700236233 /* WMGroupInfo.m in Sources */,
 				548D7EFD1D7737FB005ABD57 /* CMHTTPSessionManager.m in Sources */,
 				548D7EFE1D7737FB005ABD57 /* CMNetworkManager.m in Sources */,
+				541A776C1DB66F3D008564F7 /* WMForumViewController.m in Sources */,
 				548D7E7A1D75CE41005ABD57 /* WMApManageViewController.m in Sources */,
 				546489C51D75BC7C0053731B /* WMTabBarViewController.m in Sources */,
+				54979AB61DB0CFBD007EA99F /* WMFlowTrendAccessoryCellItem.m in Sources */,
 				54B7622C1D84663100E2FCCC /* WMAddQrcodeViewController.m in Sources */,
 				548D7E8C1D75CEC7005ABD57 /* WMWechatViewController.m in Sources */,
+				5420B2511DAA366A00673963 /* WMChartModel.m in Sources */,
+				545CE7751DA7219000A4FE8D /* WMAddTempoVistorVC.m in Sources */,
+				5420B2571DAA3C0F00673963 /* WMLineChart.m in Sources */,
+				54979AB51DB0CFBD007EA99F /* WMAdFlowTrendViewController.m in Sources */,
 				546489801D75A9720053731B /* main.m in Sources */,
 				548D7EFC1D7737FB005ABD57 /* CMCookiesHandler.m in Sources */,
+				54979A141DAFB3EC007EA99F /* WMProfileCell.m in Sources */,
 				54B762151D83EE3500E2FCCC /* WMPlusPopViewController.m in Sources */,
 				546EDFAD1D7848A4001CE4EE /* WMUserAccout.m in Sources */,
 				548D7E831D75CE8C005ABD57 /* WMSearchViewController.m in Sources */,
 				54B762091D83D5B100E2FCCC /* SVProgressHUD+WMExtension.m in Sources */,
 				54B7621D1D842EA000E2FCCC /* WMAddPskViewController.m in Sources */,
+				54EF6C821D8BE82900913198 /* WMApRadio.m in Sources */,
 				548D7E4C1D75C81D005ABD57 /* UIView+CMFrame.m in Sources */,
+				54EF6DF51D8675FC00236233 /* WMGroupInfoViewModel.m in Sources */,
+				54979ABC1DB0CFBD007EA99F /* WMAdPopCell.m in Sources */,
 				546489E61D75C4D90053731B /* WMDeviceIcon.m in Sources */,
+				54979AB71DB0CFBD007EA99F /* WMFlowTrendCellItem.m in Sources */,
+				5420B2541DAA382500673963 /* WMLineData.m in Sources */,
+				54979A331DAFE755007EA99F /* WMAlertEventViewController.m in Sources */,
+				5413B1301DB5A68300112BB7 /* WMFlowTrendBarChartCellItem.m in Sources */,
 				548D7E7D1D75CE62005ABD57 /* WMWifiViewController.m in Sources */,
 				54B762161D83EE3500E2FCCC /* WMWifiAnimatorTool.m in Sources */,
+				54979AB91DB0CFBD007EA99F /* WMFlowTrendGroupItem.m in Sources */,
+				54EF6E001D86B59F00236233 /* WMApManagePresentationController.m in Sources */,
+				54979ACA1DB1E3A2007EA99F /* CMDateAndTimeTool.m in Sources */,
+				5413B13E1DB5FC5200112BB7 /* WMBlackListModel.m in Sources */,
 				548D7E8F1D75CEDF005ABD57 /* WMSmsViewController.m in Sources */,
+				5475230F1D9969D900991B98 /* WMGroupAccoutModel.m in Sources */,
 				548D7E801D75CE75005ABD57 /* WMAuthViewController.m in Sources */,
 				54B762191D83EEE100E2FCCC /* WMPresentationController.m in Sources */,
 				543B3B0A1D8398120032B506 /* WMNetworkViewModel.m in Sources */,
+				54979A3E1DB06B27007EA99F /* WMAlertEventCell.m in Sources */,
 				546EDFAA1D784893001CE4EE /* WMTextField.m in Sources */,
+				545CE7691DA5EBCA00A4FE8D /* WMDetailsOperationButton.m in Sources */,
 				548D7E771D75CE21005ABD57 /* WMWifiStateViewController.m in Sources */,
+				545CE7701DA653F000A4FE8D /* WMTempoGuestCell.m in Sources */,
+				54C432831D963D2E005E261C /* WMChartView.m in Sources */,
+				545CE7EC1DA77CF900A4FE8D /* WMCustomMenuCell.m in Sources */,
 				543B3B051D80604B0032B506 /* WMNetworkCell.m in Sources */,
+				54979A111DAFB04F007EA99F /* WMCellItem.m in Sources */,
+				545CE7651DA5E71A00A4FE8D /* WMDetailsLocalAccoutCell.m in Sources */,
+				54979AC01DB0CFBD007EA99F /* WMAdChartView.m in Sources */,
 				5477E2021D7C01B900BEC3EB /* WMNetwork.m in Sources */,
+				54979A1F1DAFBA54007EA99F /* WMButtomCellItem.m in Sources */,
+				54979A0E1DAFAD39007EA99F /* WMBaseViewController.m in Sources */,
+				541A77661DB610B5008564F7 /* WMAddBlackListViewController.m in Sources */,
+				5485E90B1D8D518B005E5168 /* WMChannelRateController.m in Sources */,
+				54EF6E631D8BB5E000236233 /* WMStateCell.m in Sources */,
+				54979A1C1DAFB892007EA99F /* WMAccessoryCellItem.m in Sources */,
+				545CE7F01DA781DB00A4FE8D /* WMCustomMenuModel.m in Sources */,
+				545CEA8F1DABE464007B9EDD /* WMPieData.m in Sources */,
+				547523091D99594E00991B98 /* WMLocalAccoutVC.m in Sources */,
 				548D7E951D75D0B7005ABD57 /* UIBarButtonItem+CMExtension.m in Sources */,
-				548D7E891D75CEB3005ABD57 /* WMAdViewController.m in Sources */,
+				54979A301DAFDA23007EA99F /* CMFileTool.m in Sources */,
+				54EF6DEA1D8640EE00236233 /* WMApInfoViewModel.m in Sources */,
 				54EF6DE21D85035300236233 /* WMApManageCell.m in Sources */,
+				54EF6E031D86FE4400236233 /* WMBandWidthInputView.m in Sources */,
+				54979AB81DB0CFBD007EA99F /* WMFlowTrendChartCellItem.m in Sources */,
 				548D7E861D75CEA3005ABD57 /* WMCustomViewController.m in Sources */,
 				548D7E921D75CF62005ABD57 /* WMNavigationController.m in Sources */,
-				546489E11D75C11D0053731B /* WMConstantVA.m in Sources */,
+				54EF6E5F1D8B980300236233 /* WMHeaderView.m in Sources */,
+				54979ABE1DB0CFBD007EA99F /* WMAdSummayCell.m in Sources */,
 				546EDFA81D784893001CE4EE /* WMLoginView.m in Sources */,
 				546EDFB01D784CCA001CE4EE /* WMUserAccoutViewModel.m in Sources */,
+				54979AC21DB0CFBD007EA99F /* WMFlowTrendCell.m in Sources */,
+				54979A2B1DAFD9B5007EA99F /* WMConstantVA.m in Sources */,
+				54C432881D965190005E261C /* WMFlowView.m in Sources */,
 				546489DE1D75BF000053731B /* WMDeviceViewController.m in Sources */,
-				546489C61D75BC7C0053731B /* AppDelegate.m in Sources */,
+				54979A071DAD371E007EA99F /* WMPieChartView.m in Sources */,
+				54EF6C7F1D8BDC3700913198 /* WMApViewModel.m in Sources */,
+				541A77721DB6FD88008564F7 /* WMApDataTool.m in Sources */,
+				545CE76C1DA64AB600A4FE8D /* WMGuestAccoutModel.m in Sources */,
+				547523121D99790000991B98 /* WMDetailsLocalAccoutVC.m in Sources */,
+				541A77751DB72BDB008564F7 /* WMNetworkTool.m in Sources */,
+				5413B13A1DB5F09300112BB7 /* WMBlackListCell.m in Sources */,
+				54979AC61DB0D01D007EA99F /* WMAdPopModel.m in Sources */,
+				54979A391DAFF1EC007EA99F /* WMAlertEventModel.m in Sources */,
 				548D7E471D75C680005ABD57 /* WMDeviceCell.m in Sources */,
+				54EF6DF91D8691CB00236233 /* WMApAlterViewController.m in Sources */,
+				545CEA8C1DABE37C007B9EDD /* WMPieChart.m in Sources */,
 				54B762271D84661800E2FCCC /* WMAddWechatViewController.m in Sources */,
 				54B762221D84660300E2FCCC /* WMAddSmsViewController.m in Sources */,
+				54979ABB1DB0CFBD007EA99F /* WMSummaryInfoModel.m in Sources */,
+				5475230C1D99596600991B98 /* WMTempoVistorVC.m in Sources */,
+				54979AB21DB0CFBD007EA99F /* WMAdPopViewController.m in Sources */,
+				54EF6DFD1D86B13700236233 /* WMApAnimatorTool.m in Sources */,
+				545CE7F61DA79B3200A4FE8D /* WMCustomChartVC.m in Sources */,
+				54979A221DAFBBB2007EA99F /* WMGroupItem.m in Sources */,
+				54EF6C781D8BC82400913198 /* WMAccessPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1394,9 +2040,11 @@
 			baseConfigurationReference = B102727B661BE29444DF8027 /* Pods-WifiManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Classes/Other/WifiManager.pch";
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Classes/Other/Other/WifiManager.pch";
 				INFOPLIST_FILE = WifiManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1411,9 +2059,10 @@
 			baseConfigurationReference = 043E1FC394B801015D37AF7A /* Pods-WifiManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Classes/Other/WifiManager.pch";
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Classes/Other/Other/WifiManager.pch";
 				INFOPLIST_FILE = WifiManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

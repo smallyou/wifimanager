@@ -20,11 +20,8 @@
 #import "WMAddSmsViewController.h"
 #import "WMAddWechatViewController.h"
 #import "WMAddQrcodeViewController.h"
+#import "WMNetworkTool.h"
 
-typedef NS_ENUM(NSInteger,WMNetworkType){
-    WMNetworkTypeNew = 0,
-    WMNetworkTypeMore = 1
-};
 
 
 @interface WMWifiViewController ()  <WMNetworkCellDelegate>
@@ -38,6 +35,8 @@ typedef NS_ENUM(NSInteger,WMNetworkType){
 #pragma mark - 数据数组
 @property(nonatomic,strong) NSMutableArray *networkViewModels;
 @property(nonatomic,assign) NSInteger start;
+
+@property(nonatomic,assign) BOOL isLoadFromDB; //是否要从数据库加载
 
 @end
 
@@ -69,6 +68,7 @@ static NSString *const ID = @"cell";
 -(WMWifiAnimatorTool<UIViewControllerTransitioningDelegate> *)animator
 {
     if (_animator == nil) {
+        
         _animator = [[WMWifiAnimatorTool alloc]init];
     }
     return _animator;
@@ -84,7 +84,20 @@ static NSString *const ID = @"cell";
     [self setupUI];
     
     //2 下拉刷新
-    [self.tableView.mj_header beginRefreshing];
+    self.isLoadFromDB = YES;
+    [self requestForNetwork:WMNetworkTypeNew];
+    
+}
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    //停止提示
+    [SVProgressHUD dismiss];
+    
+    //取消所有的下载任务
+    [[CMNetworkManager shareInstance].manager.tasks makeObjectsPerformSelector:@selector(cancel)];
     
 }
 
@@ -94,7 +107,7 @@ static NSString *const ID = @"cell";
 {
     //1 设置导航栏
     self.title = @"无线网络";
-    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(plusButtonDidClick) image:[UIImage imageNamed:@"plus"] highImage:[UIImage imageNamed:@"plus_highlighted"] title:nil];
+//    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(plusButtonDidClick) image:[UIImage imageNamed:@"plus"] highImage:[UIImage imageNamed:@"plus_highlighted"] title:nil];
     
     //2 设置下拉刷新
     MJRefreshNormalHeader *header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
@@ -181,12 +194,14 @@ static NSString *const ID = @"cell";
 /**2 下拉刷新事件监听*/
 -(void)loadNewData
 {
+    self.isLoadFromDB = NO;
     [self requestForNetwork:WMNetworkTypeNew];
 }
 
 /**3 上拉加载事件监听*/
 -(void)loadMoreData
 {
+    self.isLoadFromDB = NO;
     [self requestForNetwork:WMNetworkTypeMore];
 }
 
@@ -206,14 +221,8 @@ static NSString *const ID = @"cell";
     //3 如果是下拉刷新，start=0
     if (type == WMNetworkTypeNew) self.start = 0;
     
-    //4 请求数据
-    [CMNetworkManager requestforNetwork:server start:self.start limit:CMNetworkLimit  competation:^(NSArray<NSDictionary *> *data, NSError *error) {
-        
-        if (error) {
-            WMLog(@"错误");
-            return;
-        }
-        
+    //保存block
+    void(^handleNetwork)(NSArray *) = ^(NSArray *data){
         //5 字典转模型
         [WMNetwork mj_setupReplacedKeyFromPropertyName:^NSDictionary *{
             return @{@"Id":@"id"};
@@ -245,7 +254,53 @@ static NSString *const ID = @"cell";
         //9 结束刷新
         [self.tableView.mj_header endRefreshing];
         [self.tableView.mj_footer endRefreshing];
-    }];
+    
+    
+    };
+    
+    
+    if (self.isLoadFromDB) {
+        //从数据库中获取
+        NSArray *result = [WMNetworkTool network:@{@"start":@(self.start),@"limit":@(CMNetworkLimit)}];
+        if (result.count) {
+            
+            handleNetwork(result);
+            
+        }else{
+            //4 请求数据
+            [CMNetworkManager requestforNetwork:server start:self.start limit:CMNetworkLimit  competation:^(NSArray<NSDictionary *> *data, NSError *error) {
+                
+                if (error) {
+                    return;
+                }
+                
+                handleNetwork(data);
+                //存储
+                [WMNetworkTool saveNetworks:data];
+                
+            }];
+        }
+        
+    }else{
+        //4 请求数据
+        [CMNetworkManager requestforNetwork:server start:self.start limit:CMNetworkLimit  competation:^(NSArray<NSDictionary *> *data, NSError *error) {
+            
+            if (error) {
+                return;
+            }
+            
+            handleNetwork(data);
+            
+            if (type == WMNetworkTypeNew) {
+                [WMNetworkTool removeAllNetworks];
+            }
+            //存储
+            [WMNetworkTool saveNetworks:data];
+            
+            
+        }];
+        
+    }
 }
 
 

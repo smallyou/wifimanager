@@ -24,5 +24,11 @@
     [SVProgressHUD showErrorWithStatus:status];
 }
 
++(void)infoWithString:(NSString *)status
+{
+    [SVProgressHUD setMinimumDismissTimeInterval:1.0];
+    [SVProgressHUD showInfoWithStatus:status];
+    
+}
 
 @end
